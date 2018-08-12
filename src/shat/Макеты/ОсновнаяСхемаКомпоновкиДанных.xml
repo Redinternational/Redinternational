@@ -1,0 +1,4584 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаУвольнения</dataPath>
+				<field>ДатаУвольнения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата увольнения</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Должность</dataPath>
+				<field>Должность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Должность</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Подразделение</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаПриема</dataPath>
+				<field>ДатаПриема</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата приема</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Организация</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидЗанятости</dataPath>
+				<field>ВидЗанятости</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Вид занятости</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сотрудник</dataPath>
+				<field>Сотрудник</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Сотрудник</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Размер</dataPath>
+				<field>Размер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Размер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Начисление</dataPath>
+				<field>Начисление</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Начисление</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВысшееОбразованиеОкончание</dataPath>
+				<field>ВысшееОбразованиеОкончание</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Высшее образование окончание</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидАктаГосоргана</dataPath>
+				<field>ВидАктаГосоргана</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Вид акта госоргана</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗнанияЯзыков</dataPath>
+				<field>ЗнанияЯзыков</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Знания языков</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОбщийНаучноПедагогическийСтажДней</dataPath>
+				<field>ОбщийНаучноПедагогическийСтажДней</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Общий научно педагогический стаж дней</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОплатаТрудаРегистратор</dataPath>
+				<field>ОплатаТрудаРегистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Оплата труда регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПочетноеЗвание</dataPath>
+				<field>ПочетноеЗвание</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Почетное звание</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОбщийСтажЛет</dataPath>
+				<field>ОбщийСтажЛет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Общий стаж лет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1Окончание</dataPath>
+				<field>Образование1Окончание</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 окончание</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументСрокДействия</dataPath>
+				<field>ДокументСрокДействия</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ срок действия</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеКвалификация</dataPath>
+				<field>ПослеВузовскоеОбразованиеКвалификация</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование квалификация</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТекущийВидДоговора</dataPath>
+				<field>ТекущийВидДоговора</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Текущий вид договора</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПриказОПриеме</dataPath>
+				<field>ПриказОПриеме</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Приказ о приеме</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтатусНалогоплательщика</dataPath>
+				<field>СтатусНалогоплательщика</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Статус налогоплательщика</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АвансПериодЗаписи</dataPath>
+				<field>АвансПериодЗаписи</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Аванс период записи</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументДатаВыдачи</dataPath>
+				<field>ДокументДатаВыдачи</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ дата выдачи</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаОкончания</dataPath>
+				<field>ДатаОкончания</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата окончания</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтажНаНадбавкуЗаВыслугуЛетДней</dataPath>
+				<field>СтажНаНадбавкуЗаВыслугуЛетДней</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Стаж на надбавку за выслугу лет дней</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СеверныйСтажДней</dataPath>
+				<field>СеверныйСтажДней</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Северный стаж дней</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2Номер</dataPath>
+				<field>Образование2Номер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Страна</dataPath>
+				<field>Страна</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Страна</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1Начало</dataPath>
+				<field>Образование1Начало</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 начало</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СрочныйДоговор</dataPath>
+				<field>СрочныйДоговор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Срочный договор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеВидДокумента</dataPath>
+				<field>ПослеВузовскоеОбразованиеВидДокумента</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование вид документа</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВысшееОбразованиеУчебноеЗаведение</dataPath>
+				<field>ВысшееОбразованиеУчебноеЗаведение</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Высшее образование учебное заведение</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Надбавка</dataPath>
+				<field>Надбавка</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Надбавка</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументПредставление</dataPath>
+				<field>ДокументПредставление</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ представление</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидЗастрахованногоЛица</dataPath>
+				<field>ВидЗастрахованногоЛица</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Вид застрахованного лица</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтраховойНомерПФР</dataPath>
+				<field>СтраховойНомерПФР</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Страховой номер ПФР</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РасширенныйСтраховойСтажЛет</dataPath>
+				<field>РасширенныйСтраховойСтажЛет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Расширенный страховой стаж лет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1ВидОбразования</dataPath>
+				<field>Образование1ВидОбразования</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 вид образования</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументНомер</dataPath>
+				<field>ДокументНомер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресМестаПроживания</dataPath>
+				<field>АдресМестаПроживания</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Адрес места проживания</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПроцентСевернойНадбавки</dataPath>
+				<field>ПроцентСевернойНадбавки</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Процент северной надбавки</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтраховойСтажМесяцев</dataPath>
+				<field>СтраховойСтажМесяцев</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Страховой стаж месяцев</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1Квалификация</dataPath>
+				<field>Образование1Квалификация</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 квалификация</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АвансРегистратор</dataPath>
+				<field>АвансРегистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Аванс регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетВУС</dataPath>
+				<field>ВоинскийУчетВУС</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет ВУС</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтраховойСтажЛет</dataPath>
+				<field>СтраховойСтажЛет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Страховой стаж лет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченоеЗваниеАттестатНомер</dataPath>
+				<field>УченоеЗваниеАттестатНомер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученое звание аттестат номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеВидОбразования</dataPath>
+				<field>ПослеВузовскоеОбразованиеВидОбразования</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование вид образования</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГрафикРаботыРегистратор</dataPath>
+				<field>ГрафикРаботыРегистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>График работы регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НепрерывныйСтажЛет</dataPath>
+				<field>НепрерывныйСтажЛет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Непрерывный стаж лет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаНачала</dataPath>
+				<field>ДатаНачала</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата начала</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПроцентСевернойНадбавкиИзменяется</dataPath>
+				<field>ПроцентСевернойНадбавкиИзменяется</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Процент северной надбавки изменяется</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТарифнаяСтавка</dataPath>
+				<field>ТарифнаяСтавка</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Тарифная ставка</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1ВидДокумента</dataPath>
+				<field>Образование1ВидДокумента</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 вид документа</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПедагогическийСтажЛет</dataPath>
+				<field>ПедагогическийСтажЛет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Педагогический стаж лет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеСпециальность</dataPath>
+				<field>ПослеВузовскоеОбразованиеСпециальность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование специальность</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПрочийСтажМесяцев</dataPath>
+				<field>ПрочийСтажМесяцев</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Прочий стаж месяцев</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РазрядКатегорияПериодРегистрации</dataPath>
+				<field>РазрядКатегорияПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Разряд категория период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченаяСтепеньДатаПрисуждения</dataPath>
+				<field>УченаяСтепеньДатаПрисуждения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученая степень дата присуждения</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОборудованиеРабочегоМеста</dataPath>
+				<field>ОборудованиеРабочегоМеста</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Оборудование рабочего места</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СостояниеВБракеПериодРегистрации</dataPath>
+				<field>СостояниеВБракеПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Состояние в браке период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования</dataPath>
+				<field>ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование вид послевузовского образования</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Фамилия</dataPath>
+				<field>Фамилия</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Фамилия</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДолжностьПредставителяНанимателя</dataPath>
+				<field>ДолжностьПредставителяНанимателя</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Должность представителя нанимателя</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2Серия</dataPath>
+				<field>Образование2Серия</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 серия</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИнвалидностьПериодРегистрации</dataPath>
+				<field>ИнвалидностьПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Инвалидность период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РазрядКатегория</dataPath>
+				<field>РазрядКатегория</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Разряд категория</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МестоРождения</dataPath>
+				<field>МестоРождения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Место рождения</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченоеЗваниеСпециальность</dataPath>
+				<field>УченоеЗваниеСпециальность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученое звание специальность</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Документы</dataPath>
+				<field>Документы</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документы</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтажНаНадбавкуЗаВыслугуЛетМесяцев</dataPath>
+				<field>СтажНаНадбавкуЗаВыслугуЛетМесяцев</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Стаж на надбавку за выслугу лет месяцев</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОснованиеПредставителя</dataPath>
+				<field>ОснованиеПредставителя</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Основание представителя</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПрочийСтажЛет</dataPath>
+				<field>ПрочийСтажЛет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Прочий стаж лет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтажНаНадбавкуЗаВыслугуЛетЛет</dataPath>
+				<field>СтажНаНадбавкуЗаВыслугуЛетЛет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Стаж на надбавку за выслугу лет лет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаРегистрации</dataPath>
+				<field>ДатаРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументСерия</dataPath>
+				<field>ДокументСерия</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ серия</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РабочееМестоРегистратор</dataPath>
+				<field>РабочееМестоРегистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Рабочее место регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВысшееОбразованиеНачало</dataPath>
+				<field>ВысшееОбразованиеНачало</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Высшее образование начало</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СостояниеПериодРегистрации</dataPath>
+				<field>СостояниеПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Состояние период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФИОПериодРегистрации</dataPath>
+				<field>ФИОПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>ФИОПериод регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПоПропискеПредставление</dataPath>
+				<field>АдресПоПропискеПредставление</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Адрес по прописке представление</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Состояние</dataPath>
+				<field>Состояние</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Состояние</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченоеЗваниеАттестатСерия</dataPath>
+				<field>УченоеЗваниеАттестатСерия</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученое звание аттестат серия</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СрокЗаключенияДоговора</dataPath>
+				<field>СрокЗаключенияДоговора</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Срок заключения договора</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументВид</dataPath>
+				<field>ДокументВид</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ вид</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтраховойСтажДней</dataPath>
+				<field>СтраховойСтажДней</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Страховой стаж дней</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗарплатныйПроектПериодРегистрации</dataPath>
+				<field>ЗарплатныйПроектПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Зарплатный проект период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаДоговораКонтракта</dataPath>
+				<field>ДатаДоговораКонтракта</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата договора контракта</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РабочееМестоПериодРегистрации</dataPath>
+				<field>РабочееМестоПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Рабочее место период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченаяСтепеньДиссертационныйСовет</dataPath>
+				<field>УченаяСтепеньДиссертационныйСовет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученая степень диссертационный совет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГрафикРаботы</dataPath>
+				<field>ГрафикРаботы</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>График работы</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РасширенныйСтраховойСтажМесяцев</dataPath>
+				<field>РасширенныйСтраховойСтажМесяцев</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Расширенный страховой стаж месяцев</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетОтношениеКВоинскойОбязанности</dataPath>
+				<field>ВоинскийУчетОтношениеКВоинскойОбязанности</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет отношение к воинской обязанности</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетОтношениеКВоинскомуУчету</dataPath>
+				<field>ВоинскийУчетОтношениеКВоинскомуУчету</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет отношение к воинскому учету</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1Номер</dataPath>
+				<field>Образование1Номер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПриказОбУвольненииДата</dataPath>
+				<field>ПриказОбУвольненииДата</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Приказ об увольнении дата</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2ДатаВыдачи</dataPath>
+				<field>Образование2ДатаВыдачи</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 дата выдачи</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2ВидОбразования</dataPath>
+				<field>Образование2ВидОбразования</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 вид образования</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НомерДоговораКонтракта</dataPath>
+				<field>НомерДоговораКонтракта</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Номер договора контракта</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОбщийСтажДней</dataPath>
+				<field>ОбщийСтажДней</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Общий стаж дней</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПоказательТарифнойСтавки</dataPath>
+				<field>ПоказательТарифнойСтавки</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Показатель тарифной ставки</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1Специальность</dataPath>
+				<field>Образование1Специальность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 специальность</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеНачало</dataPath>
+				<field>ПослеВузовскоеОбразованиеНачало</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование начало</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СоставСемьи</dataPath>
+				<field>СоставСемьи</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Состав семьи</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Специальности</dataPath>
+				<field>Специальности</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Специальности</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетНомерКомандыПартии</dataPath>
+				<field>ВоинскийУчетНомерКомандыПартии</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет номер команды партии</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СостояниеВБраке</dataPath>
+				<field>СостояниеВБраке</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Состояние в браке</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетПериодРегистрации</dataPath>
+				<field>ВоинскийУчетПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументКодПодразделения</dataPath>
+				<field>ДокументКодПодразделения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ код подразделения</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДолжностьПоШтатномуРасписанию</dataPath>
+				<field>ДолжностьПоШтатномуРасписанию</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Должность по штатному расписанию</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидЗастрахованногоЛицаПериодРегистрации</dataPath>
+				<field>ВидЗастрахованногоЛицаПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Вид застрахованного лица период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТерриторияРегистратор</dataPath>
+				<field>ТерриторияРегистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Территория регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>EMailПредставление</dataPath>
+				<field>EMailПредставление</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>E mail представление</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПорядокИсчисленияПроцентаСевернойНадбавки</dataPath>
+				<field>ПорядокИсчисленияПроцентаСевернойНадбавки</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Порядок исчисления процента северной надбавки</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоСтавок</dataPath>
+				<field>КоличествоСтавок</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Количество ставок</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченаяСтепень</dataPath>
+				<field>УченаяСтепень</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученая степень</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИмеетНаучныеТруды</dataPath>
+				<field>ИмеетНаучныеТруды</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Имеет научные труды</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2Окончание</dataPath>
+				<field>Образование2Окончание</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 окончание</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченоеЗваниеОрганизация</dataPath>
+				<field>УченоеЗваниеОрганизация</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученое звание организация</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПриказОбУвольненииСтатьяТКРФ</dataPath>
+				<field>ПриказОбУвольненииСтатьяТКРФ</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Приказ об увольнении статья ТКРФ</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗарплатныйПроект</dataPath>
+				<field>ЗарплатныйПроект</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Зарплатный проект</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2Квалификация</dataPath>
+				<field>Образование2Квалификация</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 квалификация</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Аванс</dataPath>
+				<field>Аванс</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Аванс</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетЗабронированОрганизациейРегистратор</dataPath>
+				<field>ВоинскийУчетЗабронированОрганизациейРегистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет забронирован организацией регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченаяСтепеньДипломСерияНомер</dataPath>
+				<field>УченаяСтепеньДипломСерияНомер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученая степень диплом серия номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПриказОбУвольненииНомер</dataPath>
+				<field>ПриказОбУвольненииНомер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Приказ об увольнении номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДоляНеполногоРабочегоВремени</dataPath>
+				<field>ДоляНеполногоРабочегоВремени</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Доля неполного рабочего времени</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПредставительНанимателя</dataPath>
+				<field>ПредставительНанимателя</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Представитель нанимателя</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВладелецМестаВыплаты</dataPath>
+				<field>ВладелецМестаВыплаты</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Владелец места выплаты</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИнвалидностьДатаВыдачи</dataPath>
+				<field>ИнвалидностьДатаВыдачи</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Инвалидность дата выдачи</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеНомер</dataPath>
+				<field>ПослеВузовскоеОбразованиеНомер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетГодность</dataPath>
+				<field>ВоинскийУчетГодность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет годность</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВладеемыйЯзык1СтепеньЗнания</dataPath>
+				<field>ВладеемыйЯзык1СтепеньЗнания</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Владеемый язык1 степень знания</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПриказОбУвольнении</dataPath>
+				<field>ПриказОбУвольнении</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Приказ об увольнении</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2Начало</dataPath>
+				<field>Образование2Начало</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 начало</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИмеетИзобретения</dataPath>
+				<field>ИмеетИзобретения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Имеет изобретения</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1Серия</dataPath>
+				<field>Образование1Серия</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 серия</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2ВидДокумента</dataPath>
+				<field>Образование2ВидДокумента</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 вид документа</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФОТ</dataPath>
+				<field>ФОТ</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>ФОТ</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОбщийНаучноПедагогическийСтажЛет</dataPath>
+				<field>ОбщийНаучноПедагогическийСтажЛет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Общий научно педагогический стаж лет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИНН</dataPath>
+				<field>ИНН</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>ИНН</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СеверныйСтажЛет</dataPath>
+				<field>СеверныйСтажЛет</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Северный стаж лет</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование</dataPath>
+				<field>Образование</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченоеЗвание</dataPath>
+				<field>УченоеЗвание</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученое звание</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидДоговора</dataPath>
+				<field>ВидДоговора</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Вид договора</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресМестаПроживанияПредставление</dataPath>
+				<field>АдресМестаПроживанияПредставление</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Адрес места проживания представление</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИнвалидностьСрокДействияСправки</dataPath>
+				<field>ИнвалидностьСрокДействияСправки</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Инвалидность срок действия справки</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПолученныеОбразования</dataPath>
+				<field>ПолученныеОбразования</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Полученные образования</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТрудовойДоговорДата</dataPath>
+				<field>ТрудовойДоговорДата</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Трудовой договор дата</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПриказОПриемеДатаЗавершенияТрудовогоДоговора</dataPath>
+				<field>ПриказОПриемеДатаЗавершенияТрудовогоДоговора</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Приказ о приеме дата завершения трудового договора</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеОкончание</dataPath>
+				<field>ПослеВузовскоеОбразованиеОкончание</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование окончание</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченоеЗваниеДатаПрисвоения</dataPath>
+				<field>УченоеЗваниеДатаПрисвоения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученое звание дата присвоения</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетОтметкаОСнятиеСУчета</dataPath>
+				<field>ВоинскийУчетОтметкаОСнятиеСУчета</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет отметка о снятие с учета</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Отчество</dataPath>
+				<field>Отчество</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Отчество</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТелефонРабочийПредставление</dataPath>
+				<field>ТелефонРабочийПредставление</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Телефон рабочий представление</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Награды</dataPath>
+				<field>Награды</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Награды</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Профессия1</dataPath>
+				<field>Профессия1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Профессия1</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТелефонМобильныйПредставление</dataPath>
+				<field>ТелефонМобильныйПредставление</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Телефон мобильный представление</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченаяСтепеньОтрасльНауки</dataPath>
+				<field>УченаяСтепеньОтрасльНауки</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученая степень отрасль науки</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СеверныйСтажМесяцев</dataPath>
+				<field>СеверныйСтажМесяцев</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Северный стаж месяцев</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>АдресПоПрописке</dataPath>
+				<field>АдресПоПрописке</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Адрес по прописке</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеДатаВыдачи</dataPath>
+				<field>ПослеВузовскоеОбразованиеДатаВыдачи</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование дата выдачи</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СпособРасчетаАванса</dataPath>
+				<field>СпособРасчетаАванса</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Способ расчета аванса</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеУчебноеЗаведение</dataPath>
+				<field>ПослеВузовскоеОбразованиеУчебноеЗаведение</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование учебное заведение</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГражданствоПериодРегистрации</dataPath>
+				<field>ГражданствоПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Гражданство период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФизическоеЛицо</dataPath>
+				<field>ФизическоеЛицо</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтатьяФинансирования</dataPath>
+				<field>СтатьяФинансирования</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Статья финансирования</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПослеВузовскоеОбразованиеСерия</dataPath>
+				<field>ПослеВузовскоеОбразованиеСерия</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>После вузовское образование серия</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТерриторияПериодЗаписи</dataPath>
+				<field>ТерриторияПериодЗаписи</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Территория период записи</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТарифнаяСеткаНадбавки</dataPath>
+				<field>ТарифнаяСеткаНадбавки</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Тарифная сетка надбавки</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидМестаВыплаты</dataPath>
+				<field>ВидМестаВыплаты</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Вид места выплаты</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УченаяСтепеньОрганизация</dataPath>
+				<field>УченаяСтепеньОрганизация</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ученая степень организация</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2УчебноеЗаведение</dataPath>
+				<field>Образование2УчебноеЗаведение</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 учебное заведение</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СпособОтраженияЗарплатыВБухучете</dataPath>
+				<field>СпособОтраженияЗарплатыВБухучете</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Способ отражения зарплаты в бухучете</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОтношениеКЕНВД</dataPath>
+				<field>ОтношениеКЕНВД</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Отношение КЕНВД</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТарифнаяСетка</dataPath>
+				<field>ТарифнаяСетка</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Тарифная сетка</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УчетЗатратПериодРегистрации</dataPath>
+				<field>УчетЗатратПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Учет затрат период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПедагогическийСтажМесяцев</dataPath>
+				<field>ПедагогическийСтажМесяцев</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Педагогический стаж месяцев</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФИОПолные</dataPath>
+				<field>ФИОПолные</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>ФИОПолные</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НепрерывныйСтажМесяцев</dataPath>
+				<field>НепрерывныйСтажМесяцев</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Непрерывный стаж месяцев</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Имя</dataPath>
+				<field>Имя</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Имя</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетСостав</dataPath>
+				<field>ВоинскийУчетСостав</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет состав</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Профессия2</dataPath>
+				<field>Профессия2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Профессия2</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПрочийСтажДней</dataPath>
+				<field>ПрочийСтажДней</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Прочий стаж дней</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НепрерывныйСтажДней</dataPath>
+				<field>НепрерывныйСтажДней</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Непрерывный стаж дней</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МестоВыплаты</dataPath>
+				<field>МестоВыплаты</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Место выплаты</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1УчебноеЗаведение</dataPath>
+				<field>Образование1УчебноеЗаведение</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 учебное заведение</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГоловнаяОрганизация</dataPath>
+				<field>ГоловнаяОрганизация</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетКатегорияЗапаса</dataPath>
+				<field>ВоинскийУчетКатегорияЗапаса</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет категория запаса</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтатусНалогоплательщикаПериодРегистрации</dataPath>
+				<field>СтатусНалогоплательщикаПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Статус налогоплательщика период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетЗабронированОрганизациейПериодРегистрации</dataPath>
+				<field>ВоинскийУчетЗабронированОрганизациейПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет забронирован организацией период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование2Специальность</dataPath>
+				<field>Образование2Специальность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование2 специальность</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументКодМВД</dataPath>
+				<field>ДокументКодМВД</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ код МВД</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Территория</dataPath>
+				<field>Территория</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Территория</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ГрафикРаботыПериодРегистрации</dataPath>
+				<field>ГрафикРаботыПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>График работы период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОбщийНаучноПедагогическийСтажМесяцев</dataPath>
+				<field>ОбщийНаучноПедагогическийСтажМесяцев</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Общий научно педагогический стаж месяцев</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПедагогическийСтажДней</dataPath>
+				<field>ПедагогическийСтажДней</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Педагогический стаж дней</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументПериодРегистрации</dataPath>
+				<field>ДокументПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВладеемыйЯзык1</dataPath>
+				<field>ВладеемыйЯзык1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Владеемый язык1</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Инвалидность</dataPath>
+				<field>Инвалидность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Инвалидность</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетВоенкомат</dataPath>
+				<field>ВоинскийУчетВоенкомат</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет военкомат</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТелефонДомашнийПредставление</dataPath>
+				<field>ТелефонДомашнийПредставление</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Телефон домашний представление</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетЗвание</dataPath>
+				<field>ВоинскийУчетЗвание</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет звание</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТрудовойДоговорНомер</dataPath>
+				<field>ТрудовойДоговорНомер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Трудовой договор номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОплатаТрудаПериодЗаписи</dataPath>
+				<field>ОплатаТрудаПериодЗаписи</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Оплата труда период записи</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НомерЛицевогоСчета</dataPath>
+				<field>НомерЛицевогоСчета</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Номер лицевого счета</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РасширенныйСтраховойСтажДней</dataPath>
+				<field>РасширенныйСтраховойСтажДней</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Расширенный страховой стаж дней</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ИныеУсловияДоговора</dataPath>
+				<field>ИныеУсловияДоговора</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Иные условия договора</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВоинскийУчетЗабронированОрганизацией</dataPath>
+				<field>ВоинскийУчетЗабронированОрганизацией</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Воинский учет забронирован организацией</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Профессии</dataPath>
+				<field>Профессии</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Профессии</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Образование1ДатаВыдачи</dataPath>
+				<field>Образование1ДатаВыдачи</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Образование1 дата выдачи</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Пол</dataPath>
+				<field>Пол</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Пол</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабельныйНомер</dataPath>
+				<field>ТабельныйНомер</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Табельный номер</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТрудоваяДеятельность</dataPath>
+				<field>ТрудоваяДеятельность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Трудовая деятельность</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>РазрядКатегорияРегистратор</dataPath>
+				<field>РазрядКатегорияРегистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Разряд категория регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВладеемыйЯзык2</dataPath>
+				<field>ВладеемыйЯзык2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Владеемый язык2</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗарплатныйПроектРегистратор</dataPath>
+				<field>ЗарплатныйПроектРегистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Зарплатный проект регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаРождения</dataPath>
+				<field>ДатаРождения</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата рождения</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВладеемыйЯзык2СтепеньЗнания</dataPath>
+				<field>ВладеемыйЯзык2СтепеньЗнания</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Владеемый язык2 степень знания</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументКемВыдан</dataPath>
+				<field>ДокументКемВыдан</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ кем выдан</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОбщийСтажМесяцев</dataPath>
+				<field>ОбщийСтажМесяцев</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Общий стаж месяцев</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДокументОснование</dataPath>
+				<field>ДокументОснование</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Документ основание</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Регистратор</dataPath>
+				<field>Регистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НачислениеДокументОснование</dataPath>
+				<field>НачислениеДокументОснование</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Начисление документ основание</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НачислениеРегистратор</dataPath>
+				<field>НачислениеРегистратор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Начисление регистратор</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОсновнойПоказатель</dataPath>
+				<field>ОсновнойПоказатель</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Основной показатель</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НачислениеПоШтатномуРасписанию</dataPath>
+				<field>НачислениеПоШтатномуРасписанию</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Начисление по штатному расписанию</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПоказательПоШтатномуРасписанию</dataPath>
+				<field>ПоказательПоШтатномуРасписанию</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Показатель по штатному расписанию</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ЗначениеПоШтатномуРасписанию</dataPath>
+				<field>ЗначениеПоШтатномуРасписанию</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Значение по штатному расписанию</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Сотрудники.Ссылка КАК Сотрудник,
+	ВЫБОР
+		КОГДА &amp;ВыводитьДанныеПредстоящихПриемов
+				И &amp;Период &lt; ТекущиеКадровыеДанныеСотрудников.ДатаПриема
+			ТОГДА ТекущиеКадровыеДанныеСотрудников.ДатаПриема
+		ИНАЧЕ &amp;Период
+	КОНЕЦ КАК Период
+ПОМЕСТИТЬ ВТСотрудники
+{ВЫБРАТЬ
+	Сотрудник.*}
+ИЗ
+	Справочник.Сотрудники КАК Сотрудники
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ТекущиеКадровыеДанныеСотрудников КАК ТекущиеКадровыеДанныеСотрудников
+		ПО Сотрудники.ФизическоеЛицо = ТекущиеКадровыеДанныеСотрудников.ФизическоеЛицо
+			И Сотрудники.Ссылка = ТекущиеКадровыеДанныеСотрудников.Сотрудник
+{ГДЕ
+	Сотрудники.Ссылка.* КАК Сотрудник,
+	Сотрудники.Код КАК ТабельныйНомер,
+	Сотрудники.ФизическоеЛицо.*,
+	Сотрудники.ГоловнаяОрганизация.*,
+	Сотрудники.ТекущийПроцентСевернойНадбавки КАК ПроцентСевернойНадбавки,
+	Сотрудники.ФизическоеЛицо.Пол КАК Пол,
+	Сотрудники.ФизическоеЛицо.ДатаРождения КАК ДатаРождения,
+	Сотрудники.ФизическоеЛицо.ИНН КАК ИНН,
+	Сотрудники.ФизическоеЛицо.СтраховойНомерПФР КАК СтраховойНомерПФР,
+	Сотрудники.ФизическоеЛицо.МестоРождения КАК МестоРождения}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК Сотрудник,
+	ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка) КАК ФизическоеЛицо,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК ГоловнаяОрганизация,
+	"" КАК ТабельныйНомер,
+	ДАТАВРЕМЯ(1, 1, 1) КАК РабочееМестоПериодРегистрации,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботу.ПустаяСсылка) КАК РабочееМестоРегистратор,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК Организация,
+	ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка) КАК Подразделение,
+	ЗНАЧЕНИЕ(Справочник.Должности.ПустаяСсылка) КАК Должность,
+	ЗНАЧЕНИЕ(Справочник.ШтатноеРасписание.ПустаяСсылка) КАК ДолжностьПоШтатномуРасписанию,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ГрафикРаботыПериодРегистрации,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботу.ПустаяСсылка) КАК ГрафикРаботыРегистратор,
+	ЗНАЧЕНИЕ(Справочник.ГрафикиРаботыСотрудников.ПустаяСсылка) КАК ГрафикРаботы,
+	0 КАК КоличествоСтавок,
+	ЗНАЧЕНИЕ(Перечисление.ВидыЗанятости.ПустаяСсылка) КАК ВидЗанятости,
+	ЗНАЧЕНИЕ(Справочник.ТарифныеСетки.ПустаяСсылка) КАК ТарифнаяСетка,
+	ДАТАВРЕМЯ(1, 1, 1) КАК РазрядКатегорияПериодРегистрации,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботу.ПустаяСсылка) КАК РазрядКатегорияРегистратор,
+	ЗНАЧЕНИЕ(Справочник.РазрядыКатегорииДолжностей.ПустаяСсылка) КАК РазрядКатегория,
+	ЗНАЧЕНИЕ(Справочник.ТарифныеСетки.ПустаяСсылка) КАК ТарифнаяСеткаНадбавки,
+	ДАТАВРЕМЯ(1, 1, 1) КАК СостояниеПериодРегистрации,
+	ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника) КАК Состояние,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ОплатаТрудаПериодЗаписи,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботу.ПустаяСсылка) КАК ОплатаТрудаРегистратор,
+	0 КАК ТарифнаяСтавка,
+	ЗНАЧЕНИЕ(Справочник.ПоказателиРасчетаЗарплаты.ПустаяСсылка) КАК ПоказательТарифнойСтавки,
+	0 КАК ДоляНеполногоРабочегоВремени,
+	0 КАК Надбавка,
+	0 КАК ФОТ,
+	ДАТАВРЕМЯ(1, 1, 1) КАК АвансПериодЗаписи,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботу.ПустаяСсылка) КАК АвансРегистратор,
+	0 КАК Аванс,
+	ЗНАЧЕНИЕ(Перечисление.СпособыРасчетаАванса.ПустаяСсылка) КАК СпособРасчетаАванса,
+	ВЫРАЗИТЬ(0 КАК ЧИСЛО(4, 2)) КАК ПроцентСевернойНадбавки,
+	ЗНАЧЕНИЕ(Перечисление.ПорядокНачисленияСеверныхНадбавок.ПустаяСсылка) КАК ПорядокИсчисленияПроцентаСевернойНадбавки,
+	ИСТИНА КАК ПроцентСевернойНадбавкиИзменяется,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаПриема,
+	"" КАК ТрудовойДоговорНомер,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ТрудовойДоговорДата,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботу.ПустаяСсылка) КАК ПриказОПриеме,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ПриказОПриемеДатаЗавершенияТрудовогоДоговора,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаУвольнения,
+	ЗНАЧЕНИЕ(Документ.Увольнение.ПустаяСсылка) КАК ПриказОбУвольнении,
+	ЗНАЧЕНИЕ(Справочник.ОснованияУвольнения.ПустаяСсылка) КАК ПриказОбУвольненииСтатьяТКРФ,
+	"" КАК ПриказОбУвольненииНомер,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ПриказОбУвольненииДата,
+	ЗНАЧЕНИЕ(Перечисление.ПолФизическогоЛица.ПустаяСсылка) КАК Пол,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаРождения,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ИНН,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК СтраховойНомерПФР,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК МестоРождения,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ГражданствоПериодРегистрации,
+	ЗНАЧЕНИЕ(Справочник.СтраныМира.ПустаяСсылка) КАК Страна,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ВидЗастрахованногоЛицаПериодРегистрации,
+	ЗНАЧЕНИЕ(Перечисление.ВидыЗастрахованныхЛицОбязательногоСтрахования.ПустаяСсылка) КАК ВидЗастрахованногоЛица,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ФИОПериодРегистрации,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК Фамилия,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК Имя,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК Отчество,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ФИОПолные,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДокументПериодРегистрации,
+	ЗНАЧЕНИЕ(Справочник.ВидыДокументовФизическихЛиц.ПустаяСсылка) КАК ДокументВид,
+	"" КАК ДокументКодМВД,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ДокументСерия,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ДокументНомер,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДокументДатаВыдачи,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДокументСрокДействия,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ДокументКемВыдан,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ДокументКодПодразделения,
+	"" КАК ДокументПредставление,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК АдресПоПрописке,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК АдресПоПропискеПредставление,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаРегистрации,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК АдресМестаПроживания,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК АдресМестаПроживанияПредставление,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ТелефонМобильныйПредставление,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ТелефонДомашнийПредставление,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК ТелефонРабочийПредставление,
+	ВЫРАЗИТЬ("" КАК СТРОКА) КАК EMailПредставление,
+	ЗНАЧЕНИЕ(Справочник.ЯзыкиНародовМира.ПустаяСсылка) КАК ВладеемыйЯзык1,
+	ЗНАЧЕНИЕ(Справочник.СтепениЗнанияЯзыка.ПустаяСсылка) КАК ВладеемыйЯзык1СтепеньЗнания,
+	ЗНАЧЕНИЕ(Справочник.ЯзыкиНародовМира.ПустаяСсылка) КАК ВладеемыйЯзык2,
+	ЗНАЧЕНИЕ(Справочник.СтепениЗнанияЯзыка.ПустаяСсылка) КАК ВладеемыйЯзык2СтепеньЗнания,
+	ЗНАЧЕНИЕ(Справочник.ПрофессииРабочих.ПустаяСсылка) КАК Профессия1,
+	ЗНАЧЕНИЕ(Справочник.ПрофессииРабочих.ПустаяСсылка) КАК Профессия2,
+	0 КАК ОбщийСтажДней,
+	0 КАК ОбщийСтажМесяцев,
+	0 КАК ОбщийСтажЛет,
+	0 КАК НепрерывныйСтажДней,
+	0 КАК НепрерывныйСтажМесяцев,
+	0 КАК НепрерывныйСтажЛет,
+	0 КАК СтажНаНадбавкуЗаВыслугуЛетДней,
+	0 КАК СтажНаНадбавкуЗаВыслугуЛетМесяцев,
+	0 КАК СтажНаНадбавкуЗаВыслугуЛетЛет,
+	0 КАК СтраховойСтажДней,
+	0 КАК СтраховойСтажМесяцев,
+	0 КАК СтраховойСтажЛет,
+	0 КАК РасширенныйСтраховойСтажДней,
+	0 КАК РасширенныйСтраховойСтажМесяцев,
+	0 КАК РасширенныйСтраховойСтажЛет,
+	0 КАК ПрочийСтажДней,
+	0 КАК ПрочийСтажМесяцев,
+	0 КАК ПрочийСтажЛет,
+	0 КАК ОбщийНаучноПедагогическийСтажДней,
+	0 КАК ОбщийНаучноПедагогическийСтажМесяцев,
+	0 КАК ОбщийНаучноПедагогическийСтажЛет,
+	0 КАК ПедагогическийСтажДней,
+	0 КАК ПедагогическийСтажМесяцев,
+	0 КАК ПедагогическийСтажЛет,
+	0 КАК СеверныйСтажДней,
+	0 КАК СеверныйСтажМесяцев,
+	0 КАК СеверныйСтажЛет,
+	ДАТАВРЕМЯ(1, 1, 1) КАК СостояниеВБракеПериодРегистрации,
+	ЗНАЧЕНИЕ(Справочник.СостояниеВБраке.ПустаяСсылка) КАК СостояниеВБраке,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ВоинскийУчетПериодРегистрации,
+	ЗНАЧЕНИЕ(Перечисление.КатегорииЗапасаВоеннообязанных.ПустаяСсылка) КАК ВоинскийУчетКатегорияЗапаса,
+	ЗНАЧЕНИЕ(Справочник.ЗванияГражданскогоВоинскогоУчета.ПустаяСсылка) КАК ВоинскийУчетЗвание,
+	ЗНАЧЕНИЕ(Справочник.СоставыВоеннослужащих.ПустаяСсылка) КАК ВоинскийУчетСостав,
+	"" КАК ВоинскийУчетВУС,
+	ЗНАЧЕНИЕ(Перечисление.ГодностьКВоеннойСлужбе.ПустаяСсылка) КАК ВоинскийУчетГодность,
+	ЗНАЧЕНИЕ(Справочник.Военкоматы.ПустаяСсылка) КАК ВоинскийУчетВоенкомат,
+	"" КАК ВоинскийУчетНомерКомандыПартии,
+	ЗНАЧЕНИЕ(Перечисление.ОтношениеКВоинскойОбязанности.ПустаяСсылка) КАК ВоинскийУчетОтношениеКВоинскойОбязанности,
+	ЗНАЧЕНИЕ(Перечисление.ОтношениеКВоинскомуУчету.ПустаяСсылка) КАК ВоинскийУчетОтношениеКВоинскомуУчету,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ВоинскийУчетЗабронированОрганизациейПериодРегистрации,
+	ЗНАЧЕНИЕ(Документ.БронированиеГражданПребывающихВЗапасе.ПустаяСсылка) КАК ВоинскийУчетЗабронированОрганизациейРегистратор,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК ВоинскийУчетЗабронированОрганизацией,
+	ЗНАЧЕНИЕ(Справочник.УчебныеЗаведения.ПустаяСсылка) КАК ПослеВузовскоеОбразованиеУчебноеЗаведение,
+	ЗНАЧЕНИЕ(Справочник.ВидыОбразованияФизическихЛиц.ПустаяСсылка) КАК ПослеВузовскоеОбразованиеВидОбразования,
+	ЗНАЧЕНИЕ(Справочник.ВидыОбразованияФизическихЛиц.ПустаяСсылка) КАК ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования,
+	ЗНАЧЕНИЕ(Справочник.ВидыДокументовОбОбразовании.ПустаяСсылка) КАК ПослеВузовскоеОбразованиеВидДокумента,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ПослеВузовскоеОбразованиеНачало,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ПослеВузовскоеОбразованиеОкончание,
+	"" КАК ПослеВузовскоеОбразованиеСерия,
+	"" КАК ПослеВузовскоеОбразованиеНомер,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ПослеВузовскоеОбразованиеДатаВыдачи,
+	ЗНАЧЕНИЕ(Справочник.КлассификаторСпециальностейПоОбразованию.ПустаяСсылка) КАК ПослеВузовскоеОбразованиеСпециальность,
+	"" КАК ПослеВузовскоеОбразованиеКвалификация,
+	ЗНАЧЕНИЕ(Справочник.УчебныеЗаведения.ПустаяСсылка) КАК Образование1УчебноеЗаведение,
+	ЗНАЧЕНИЕ(Справочник.ВидыОбразованияФизическихЛиц.ПустаяСсылка) КАК Образование1ВидОбразования,
+	ДАТАВРЕМЯ(1, 1, 1) КАК Образование1Начало,
+	ДАТАВРЕМЯ(1, 1, 1) КАК Образование1Окончание,
+	ЗНАЧЕНИЕ(Справочник.КлассификаторСпециальностейПоОбразованию.ПустаяСсылка) КАК Образование1Специальность,
+	ЗНАЧЕНИЕ(Справочник.ВидыДокументовОбОбразовании.ПустаяСсылка) КАК Образование1ВидДокумента,
+	"" КАК Образование1Серия,
+	"" КАК Образование1Номер,
+	ДАТАВРЕМЯ(1, 1, 1) КАК Образование1ДатаВыдачи,
+	"" КАК Образование1Квалификация,
+	ЗНАЧЕНИЕ(Справочник.УчебныеЗаведения.ПустаяСсылка) КАК Образование2УчебноеЗаведение,
+	ЗНАЧЕНИЕ(Справочник.ВидыОбразованияФизическихЛиц.ПустаяСсылка) КАК Образование2ВидОбразования,
+	ДАТАВРЕМЯ(1, 1, 1) КАК Образование2Начало,
+	ДАТАВРЕМЯ(1, 1, 1) КАК Образование2Окончание,
+	ЗНАЧЕНИЕ(Справочник.КлассификаторСпециальностейПоОбразованию.ПустаяСсылка) КАК Образование2Специальность,
+	ЗНАЧЕНИЕ(Справочник.ВидыДокументовОбОбразовании.ПустаяСсылка) КАК Образование2ВидДокумента,
+	"" КАК Образование2Серия,
+	"" КАК Образование2Номер,
+	ДАТАВРЕМЯ(1, 1, 1) КАК Образование2ДатаВыдачи,
+	"" КАК Образование2Квалификация,
+	ЗНАЧЕНИЕ(Справочник.УчебныеЗаведения.ПустаяСсылка) КАК ВысшееОбразованиеУчебноеЗаведение,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ВысшееОбразованиеНачало,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ВысшееОбразованиеОкончание,
+	ЗНАЧЕНИЕ(Справочник.УченыеСтепени.ПустаяСсылка) КАК УченаяСтепень,
+	"" КАК УченаяСтепеньОтрасльНауки,
+	ДАТАВРЕМЯ(1, 1, 1) КАК УченаяСтепеньДатаПрисуждения,
+	"" КАК УченаяСтепеньДиссертационныйСовет,
+	"" КАК УченаяСтепеньДипломСерияНомер,
+	"" КАК УченаяСтепеньОрганизация,
+	ЗНАЧЕНИЕ(Справочник.УченыеЗвания.ПустаяСсылка) КАК УченоеЗвание,
+	"" КАК УченоеЗваниеАттестатСерия,
+	"" КАК УченоеЗваниеАттестатНомер,
+	ДАТАВРЕМЯ(1, 1, 1) КАК УченоеЗваниеДатаПрисвоения,
+	"" КАК УченоеЗваниеОрганизация,
+	ЗНАЧЕНИЕ(Справочник.КлассификаторСпециальностейПоОбразованию.ПустаяСсылка) КАК УченоеЗваниеСпециальность,
+	ЛОЖЬ КАК ИмеетНаучныеТруды,
+	ЛОЖЬ КАК ИмеетИзобретения,
+	ЗНАЧЕНИЕ(Справочник.Награды.ПустаяСсылка) КАК ПочетноеЗвание,
+	ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ПустаяСсылка) КАК ВидДоговора,
+	ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ПустаяСсылка) КАК ТекущийВидДоговора,
+	"" КАК ПолученныеОбразования,
+	"" КАК Награды,
+	"" КАК Документы,
+	"" КАК ЗнанияЯзыков,
+	"" КАК Профессии,
+	"" КАК Специальности,
+	"" КАК ТрудоваяДеятельность,
+	"" КАК СоставСемьи,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаДоговораКонтракта,
+	"" КАК НомерДоговораКонтракта,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаНачала,
+	ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка) КАК ПредставительНанимателя,
+	ЗНАЧЕНИЕ(Справочник.Должности.ПустаяСсылка) КАК ДолжностьПредставителяНанимателя,
+	"" КАК ОснованиеПредставителя,
+	"" КАК ВидАктаГосоргана,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаОкончания,
+	ЛОЖЬ КАК СрочныйДоговор,
+	"" КАК СрокЗаключенияДоговора,
+	"" КАК ОборудованиеРабочегоМеста,
+	"" КАК ИныеУсловияДоговора,
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК ВладелецМестаВыплаты,
+	ЗНАЧЕНИЕ(Перечисление.ВидыМестВыплатыЗарплаты.ПустаяСсылка) КАК ВидМестаВыплаты,
+	ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка) КАК МестоВыплаты,
+	ДАТАВРЕМЯ(1, 1, 1) КАК СтатусНалогоплательщикаПериодРегистрации,
+	ЗНАЧЕНИЕ(Справочник.СтатусыНалогоплательщиковПоНДФЛ.ПустаяСсылка) КАК СтатусНалогоплательщика,
+	ДАТАВРЕМЯ(1, 1, 1) КАК УчетЗатратПериодРегистрации,
+	ЗНАЧЕНИЕ(Справочник.СтатьиФинансированияЗарплата.ПустаяСсылка) КАК СтатьяФинансирования,
+	ЗНАЧЕНИЕ(Справочник.СпособыОтраженияЗарплатыВБухУчете.ПустаяСсылка) КАК СпособОтраженияЗарплатыВБухучете,
+	ИСТИНА КАК ОтношениеКЕНВД,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ЗарплатныйПроектПериодРегистрации,
+	ЗНАЧЕНИЕ(Документ.ПодтверждениеОткрытияЛицевыхСчетовСотрудников) КАК ЗарплатныйПроектРегистратор,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ЗарплатныйПроект,
+	"" КАК НомерЛицевогоСчета,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ИнвалидностьПериодРегистрации,
+	ИСТИНА КАК Инвалидность,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ИнвалидностьДатаВыдачи,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ИнвалидностьСрокДействияСправки,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ТерриторияПериодЗаписи,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботу.ПустаяСсылка) КАК ТерриторияРегистратор,
+	ЗНАЧЕНИЕ(Справочник.ТерриторииВыполненияРабот.ПустаяСсылка) КАК Территория
+ПОМЕСТИТЬ Представления_КадровыеДанныеСотрудников
+ИЗ
+	ВТСотрудники КАК ВТСотрудники
+ГДЕ
+	"ТолькоРазрешенные" = ИСТИНА
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ЗНАЧЕНИЕ(Документ.КадровыйПеревод.ПустаяСсылка),
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ЗНАЧЕНИЕ(Документ.КадровыйПеревод.ПустаяСсылка),
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка),
+	NULL,
+	ЗНАЧЕНИЕ(Справочник.Кассы.ПустаяСсылка),
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ЗНАЧЕНИЕ(Документ.ИзменениеГрафикаРаботыСписком.ПустаяСсылка),
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ЗНАЧЕНИЕ(Документ.ИзменениеКвалификационногоРазряда.ПустаяСсылка),
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка),
+	NULL,
+	ЗНАЧЕНИЕ(Справочник.БанковскиеСчетаКонтрагентов.ПустаяСсылка),
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботуСписком.ПустаяСсылка),
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ЗНАЧЕНИЕ(Документ.ПриемНаРаботуСписком.ПустаяСсылка),
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ЗНАЧЕНИЕ(Справочник.ЗарплатныеПроекты.ПустаяСсылка),
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК Сотрудник,
+	ЗНАЧЕНИЕ(ПланВидовРасчета.Начисления.ПустаяСсылка) КАК Начисление,
+	0 КАК Размер,
+	ЗНАЧЕНИЕ(Справочник.ПоказателиРасчетаЗарплаты.ПустаяСсылка) КАК ОсновнойПоказатель,
+	NULL КАК Регистратор,
+	NULL КАК ДокументОснование
+ПОМЕСТИТЬ Представления_ПлановыеНачисленияСотрудников
+ИЗ
+	ВТСотрудники КАК ВТСотрудники
+ГДЕ
+	"ТолькоРазрешенные" = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Представления_КадровыеДанныеСотрудников.Сотрудник КАК Сотрудник,
+	Представления_КадровыеДанныеСотрудников.ФизическоеЛицо КАК ФизическоеЛицо,
+	Представления_КадровыеДанныеСотрудников.ГоловнаяОрганизация КАК ГоловнаяОрганизация,
+	Представления_КадровыеДанныеСотрудников.ТабельныйНомер КАК ТабельныйНомер,
+	Представления_КадровыеДанныеСотрудников.РабочееМестоПериодРегистрации КАК РабочееМестоПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.РабочееМестоРегистратор КАК РабочееМестоРегистратор,
+	Представления_КадровыеДанныеСотрудников.Организация КАК Организация,
+	Представления_КадровыеДанныеСотрудников.Подразделение КАК Подразделение,
+	Представления_КадровыеДанныеСотрудников.Должность КАК Должность,
+	Представления_КадровыеДанныеСотрудников.ДолжностьПоШтатномуРасписанию КАК ДолжностьПоШтатномуРасписанию,
+	Представления_КадровыеДанныеСотрудников.ГрафикРаботыПериодРегистрации КАК ГрафикРаботыПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ГрафикРаботыРегистратор КАК ГрафикРаботыРегистратор,
+	Представления_КадровыеДанныеСотрудников.ГрафикРаботы КАК ГрафикРаботы,
+	Представления_КадровыеДанныеСотрудников.КоличествоСтавок КАК КоличествоСтавок,
+	Представления_КадровыеДанныеСотрудников.ВидЗанятости КАК ВидЗанятости,
+	Представления_КадровыеДанныеСотрудников.ТарифнаяСетка КАК ТарифнаяСетка,
+	Представления_КадровыеДанныеСотрудников.РазрядКатегорияПериодРегистрации КАК РазрядКатегорияПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.РазрядКатегорияРегистратор КАК РазрядКатегорияРегистратор,
+	Представления_КадровыеДанныеСотрудников.РазрядКатегория КАК РазрядКатегория,
+	Представления_КадровыеДанныеСотрудников.ТарифнаяСеткаНадбавки КАК ТарифнаяСеткаНадбавки,
+	Представления_КадровыеДанныеСотрудников.СостояниеПериодРегистрации КАК СостояниеПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.Состояние КАК Состояние,
+	Представления_КадровыеДанныеСотрудников.ОплатаТрудаПериодЗаписи КАК ОплатаТрудаПериодЗаписи,
+	Представления_КадровыеДанныеСотрудников.ОплатаТрудаРегистратор КАК ОплатаТрудаРегистратор,
+	Представления_КадровыеДанныеСотрудников.ТарифнаяСтавка КАК ТарифнаяСтавка,
+	Представления_КадровыеДанныеСотрудников.ПоказательТарифнойСтавки КАК ПоказательТарифнойСтавки,
+	Представления_КадровыеДанныеСотрудников.ДоляНеполногоРабочегоВремени КАК ДоляНеполногоРабочегоВремени,
+	Представления_КадровыеДанныеСотрудников.Надбавка КАК Надбавка,
+	Представления_КадровыеДанныеСотрудников.ФОТ КАК ФОТ,
+	Представления_КадровыеДанныеСотрудников.АвансПериодЗаписи КАК АвансПериодЗаписи,
+	Представления_КадровыеДанныеСотрудников.АвансРегистратор КАК АвансРегистратор,
+	Представления_КадровыеДанныеСотрудников.Аванс КАК Аванс,
+	Представления_КадровыеДанныеСотрудников.СпособРасчетаАванса КАК СпособРасчетаАванса,
+	Представления_КадровыеДанныеСотрудников.ПроцентСевернойНадбавки КАК ПроцентСевернойНадбавки,
+	Представления_КадровыеДанныеСотрудников.ПорядокИсчисленияПроцентаСевернойНадбавки КАК ПорядокИсчисленияПроцентаСевернойНадбавки,
+	Представления_КадровыеДанныеСотрудников.ПроцентСевернойНадбавкиИзменяется КАК ПроцентСевернойНадбавкиИзменяется,
+	Представления_КадровыеДанныеСотрудников.ДатаПриема КАК ДатаПриема,
+	Представления_КадровыеДанныеСотрудников.ТрудовойДоговорНомер КАК ТрудовойДоговорНомер,
+	Представления_КадровыеДанныеСотрудников.ТрудовойДоговорДата КАК ТрудовойДоговорДата,
+	Представления_КадровыеДанныеСотрудников.ПриказОПриеме КАК ПриказОПриеме,
+	Представления_КадровыеДанныеСотрудников.ПриказОПриемеДатаЗавершенияТрудовогоДоговора КАК ПриказОПриемеДатаЗавершенияТрудовогоДоговора,
+	ВЫБОР
+		КОГДА Представления_КадровыеДанныеСотрудников.ДатаУвольнения &lt;= &amp;Период
+			ТОГДА Представления_КадровыеДанныеСотрудников.ДатаУвольнения
+		ИНАЧЕ ДАТАВРЕМЯ(1, 1, 1)
+	КОНЕЦ КАК ДатаУвольнения,
+	Представления_КадровыеДанныеСотрудников.ПриказОбУвольнении КАК ПриказОбУвольнении,
+	Представления_КадровыеДанныеСотрудников.ПриказОбУвольненииСтатьяТКРФ КАК ПриказОбУвольненииСтатьяТКРФ,
+	Представления_КадровыеДанныеСотрудников.ПриказОбУвольненииНомер КАК ПриказОбУвольненииНомер,
+	Представления_КадровыеДанныеСотрудников.ПриказОбУвольненииДата КАК ПриказОбУвольненииДата,
+	Представления_КадровыеДанныеСотрудников.Пол КАК Пол,
+	Представления_КадровыеДанныеСотрудников.ДатаРождения КАК ДатаРождения,
+	Представления_КадровыеДанныеСотрудников.ИНН КАК ИНН,
+	Представления_КадровыеДанныеСотрудников.СтраховойНомерПФР КАК СтраховойНомерПФР,
+	Представления_КадровыеДанныеСотрудников.МестоРождения КАК МестоРождения,
+	Представления_КадровыеДанныеСотрудников.ГражданствоПериодРегистрации КАК ГражданствоПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.Страна КАК Страна,
+	Представления_КадровыеДанныеСотрудников.ВидЗастрахованногоЛицаПериодРегистрации КАК ВидЗастрахованногоЛицаПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ВидЗастрахованногоЛица КАК ВидЗастрахованногоЛица,
+	Представления_КадровыеДанныеСотрудников.ФИОПериодРегистрации КАК ФИОПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.Фамилия КАК Фамилия,
+	Представления_КадровыеДанныеСотрудников.Имя КАК Имя,
+	Представления_КадровыеДанныеСотрудников.Отчество КАК Отчество,
+	Представления_КадровыеДанныеСотрудников.ФИОПолные КАК ФИОПолные,
+	Представления_КадровыеДанныеСотрудников.ДокументПериодРегистрации КАК ДокументПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ДокументВид КАК ДокументВид,
+	Представления_КадровыеДанныеСотрудников.ДокументКодМВД КАК ДокументКодМВД,
+	Представления_КадровыеДанныеСотрудников.ДокументСерия КАК ДокументСерия,
+	Представления_КадровыеДанныеСотрудников.ДокументНомер КАК ДокументНомер,
+	Представления_КадровыеДанныеСотрудников.ДокументДатаВыдачи КАК ДокументДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.ДокументСрокДействия КАК ДокументСрокДействия,
+	Представления_КадровыеДанныеСотрудников.ДокументКемВыдан КАК ДокументКемВыдан,
+	Представления_КадровыеДанныеСотрудников.ДокументКодПодразделения КАК ДокументКодПодразделения,
+	Представления_КадровыеДанныеСотрудников.ДокументПредставление КАК ДокументПредставление,
+	Представления_КадровыеДанныеСотрудников.АдресПоПрописке КАК АдресПоПрописке,
+	Представления_КадровыеДанныеСотрудников.АдресПоПропискеПредставление КАК АдресПоПропискеПредставление,
+	Представления_КадровыеДанныеСотрудников.ДатаРегистрации КАК ДатаРегистрации,
+	Представления_КадровыеДанныеСотрудников.АдресМестаПроживания КАК АдресМестаПроживания,
+	Представления_КадровыеДанныеСотрудников.АдресМестаПроживанияПредставление КАК АдресМестаПроживанияПредставление,
+	Представления_КадровыеДанныеСотрудников.ТелефонМобильныйПредставление КАК ТелефонМобильныйПредставление,
+	Представления_КадровыеДанныеСотрудников.ТелефонДомашнийПредставление КАК ТелефонДомашнийПредставление,
+	Представления_КадровыеДанныеСотрудников.ТелефонРабочийПредставление КАК ТелефонРабочийПредставление,
+	Представления_КадровыеДанныеСотрудников.EMailПредставление КАК EMailПредставление,
+	Представления_КадровыеДанныеСотрудников.ВладеемыйЯзык1 КАК ВладеемыйЯзык1,
+	Представления_КадровыеДанныеСотрудников.ВладеемыйЯзык1СтепеньЗнания КАК ВладеемыйЯзык1СтепеньЗнания,
+	Представления_КадровыеДанныеСотрудников.ВладеемыйЯзык2 КАК ВладеемыйЯзык2,
+	Представления_КадровыеДанныеСотрудников.ВладеемыйЯзык2СтепеньЗнания КАК ВладеемыйЯзык2СтепеньЗнания,
+	Представления_КадровыеДанныеСотрудников.Профессия1 КАК Профессия1,
+	Представления_КадровыеДанныеСотрудников.Профессия2 КАК Профессия2,
+	Представления_КадровыеДанныеСотрудников.ОбщийСтажДней КАК ОбщийСтажДней,
+	Представления_КадровыеДанныеСотрудников.ОбщийСтажМесяцев КАК ОбщийСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.ОбщийСтажЛет КАК ОбщийСтажЛет,
+	Представления_КадровыеДанныеСотрудников.НепрерывныйСтажДней КАК НепрерывныйСтажДней,
+	Представления_КадровыеДанныеСотрудников.НепрерывныйСтажМесяцев КАК НепрерывныйСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.НепрерывныйСтажЛет КАК НепрерывныйСтажЛет,
+	Представления_КадровыеДанныеСотрудников.СтажНаНадбавкуЗаВыслугуЛетДней КАК СтажНаНадбавкуЗаВыслугуЛетДней,
+	Представления_КадровыеДанныеСотрудников.СтажНаНадбавкуЗаВыслугуЛетМесяцев КАК СтажНаНадбавкуЗаВыслугуЛетМесяцев,
+	Представления_КадровыеДанныеСотрудников.СтажНаНадбавкуЗаВыслугуЛетЛет КАК СтажНаНадбавкуЗаВыслугуЛетЛет,
+	Представления_КадровыеДанныеСотрудников.СтраховойСтажДней КАК СтраховойСтажДней,
+	Представления_КадровыеДанныеСотрудников.СтраховойСтажМесяцев КАК СтраховойСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.СтраховойСтажЛет КАК СтраховойСтажЛет,
+	Представления_КадровыеДанныеСотрудников.РасширенныйСтраховойСтажДней КАК РасширенныйСтраховойСтажДней,
+	Представления_КадровыеДанныеСотрудников.РасширенныйСтраховойСтажМесяцев КАК РасширенныйСтраховойСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.РасширенныйСтраховойСтажЛет КАК РасширенныйСтраховойСтажЛет,
+	Представления_КадровыеДанныеСотрудников.ПрочийСтажДней КАК ПрочийСтажДней,
+	Представления_КадровыеДанныеСотрудников.ПрочийСтажМесяцев КАК ПрочийСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.ПрочийСтажЛет КАК ПрочийСтажЛет,
+	Представления_КадровыеДанныеСотрудников.ОбщийНаучноПедагогическийСтажДней КАК ОбщийНаучноПедагогическийСтажДней,
+	Представления_КадровыеДанныеСотрудников.ОбщийНаучноПедагогическийСтажМесяцев КАК ОбщийНаучноПедагогическийСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.ОбщийНаучноПедагогическийСтажЛет КАК ОбщийНаучноПедагогическийСтажЛет,
+	Представления_КадровыеДанныеСотрудников.ПедагогическийСтажДней КАК ПедагогическийСтажДней,
+	Представления_КадровыеДанныеСотрудников.ПедагогическийСтажМесяцев КАК ПедагогическийСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.ПедагогическийСтажЛет КАК ПедагогическийСтажЛет,
+	Представления_КадровыеДанныеСотрудников.СеверныйСтажДней КАК СеверныйСтажДней,
+	Представления_КадровыеДанныеСотрудников.СеверныйСтажМесяцев КАК СеверныйСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.СеверныйСтажЛет КАК СеверныйСтажЛет,
+	Представления_КадровыеДанныеСотрудников.СостояниеВБракеПериодРегистрации КАК СостояниеВБракеПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.СостояниеВБраке КАК СостояниеВБраке,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетПериодРегистрации КАК ВоинскийУчетПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетКатегорияЗапаса КАК ВоинскийУчетКатегорияЗапаса,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗвание КАК ВоинскийУчетЗвание,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетСостав КАК ВоинскийУчетСостав,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетВУС КАК ВоинскийУчетВУС,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетГодность КАК ВоинскийУчетГодность,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетВоенкомат КАК ВоинскийУчетВоенкомат,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетНомерКомандыПартии КАК ВоинскийУчетНомерКомандыПартии,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетОтношениеКВоинскойОбязанности КАК ВоинскийУчетОтношениеКВоинскойОбязанности,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетОтношениеКВоинскомуУчету КАК ВоинскийУчетОтношениеКВоинскомуУчету,
+	ВЫБОР
+		КОГДА Представления_КадровыеДанныеСотрудников.ВоинскийУчетОтношениеКВоинскомуУчету В (ЗНАЧЕНИЕ(Перечисление.ОтношениеКВоинскомуУчету.СнятПоВозрасту), ЗНАЧЕНИЕ(Перечисление.ОтношениеКВоинскомуУчету.СнятПоСостояниюЗдоровья))
+			ТОГДА Представления_КадровыеДанныеСотрудников.ВоинскийУчетОтношениеКВоинскомуУчету
+		ИНАЧЕ ""
+	КОНЕЦ КАК ВоинскийУчетОтметкаОСнятиеСУчета,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизациейПериодРегистрации КАК ВоинскийУчетЗабронированОрганизациейПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизациейРегистратор КАК ВоинскийУчетЗабронированОрганизациейРегистратор,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизацией КАК ВоинскийУчетЗабронированОрганизацией,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеУчебноеЗаведение КАК ПослеВузовскоеОбразованиеУчебноеЗаведение,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидОбразования КАК ПослеВузовскоеОбразованиеВидОбразования,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования КАК ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидДокумента КАК ПослеВузовскоеОбразованиеВидДокумента,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеНачало КАК ПослеВузовскоеОбразованиеНачало,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеОкончание КАК ПослеВузовскоеОбразованиеОкончание,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеСерия КАК ПослеВузовскоеОбразованиеСерия,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеНомер КАК ПослеВузовскоеОбразованиеНомер,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеДатаВыдачи КАК ПослеВузовскоеОбразованиеДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеСпециальность КАК ПослеВузовскоеОбразованиеСпециальность,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеКвалификация КАК ПослеВузовскоеОбразованиеКвалификация,
+	Представления_КадровыеДанныеСотрудников.Образование1ВидОбразования КАК Образование,
+	Представления_КадровыеДанныеСотрудников.Образование1УчебноеЗаведение КАК Образование1УчебноеЗаведение,
+	Представления_КадровыеДанныеСотрудников.Образование1ВидОбразования КАК Образование1ВидОбразования,
+	Представления_КадровыеДанныеСотрудников.Образование1Начало КАК Образование1Начало,
+	Представления_КадровыеДанныеСотрудников.Образование1Окончание КАК Образование1Окончание,
+	Представления_КадровыеДанныеСотрудников.Образование1Специальность КАК Образование1Специальность,
+	Представления_КадровыеДанныеСотрудников.Образование1ВидДокумента КАК Образование1ВидДокумента,
+	Представления_КадровыеДанныеСотрудников.Образование1Серия КАК Образование1Серия,
+	Представления_КадровыеДанныеСотрудников.Образование1Номер КАК Образование1Номер,
+	Представления_КадровыеДанныеСотрудников.Образование1ДатаВыдачи КАК Образование1ДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.Образование1Квалификация КАК Образование1Квалификация,
+	Представления_КадровыеДанныеСотрудников.Образование2УчебноеЗаведение КАК Образование2УчебноеЗаведение,
+	Представления_КадровыеДанныеСотрудников.Образование2ВидОбразования КАК Образование2ВидОбразования,
+	Представления_КадровыеДанныеСотрудников.Образование2Начало КАК Образование2Начало,
+	Представления_КадровыеДанныеСотрудников.Образование2Окончание КАК Образование2Окончание,
+	Представления_КадровыеДанныеСотрудников.Образование2Специальность КАК Образование2Специальность,
+	Представления_КадровыеДанныеСотрудников.Образование2ВидДокумента КАК Образование2ВидДокумента,
+	Представления_КадровыеДанныеСотрудников.Образование2Серия КАК Образование2Серия,
+	Представления_КадровыеДанныеСотрудников.Образование2Номер КАК Образование2Номер,
+	Представления_КадровыеДанныеСотрудников.Образование2ДатаВыдачи КАК Образование2ДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.Образование2Квалификация КАК Образование2Квалификация,
+	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеУчебноеЗаведение КАК ВысшееОбразованиеУчебноеЗаведение,
+	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеНачало КАК ВысшееОбразованиеНачало,
+	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеОкончание КАК ВысшееОбразованиеОкончание,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепень КАК УченаяСтепень,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньОтрасльНауки КАК УченаяСтепеньОтрасльНауки,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДатаПрисуждения КАК УченаяСтепеньДатаПрисуждения,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДиссертационныйСовет КАК УченаяСтепеньДиссертационныйСовет,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДипломСерияНомер КАК УченаяСтепеньДипломСерияНомер,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньОрганизация КАК УченаяСтепеньОрганизация,
+	Представления_КадровыеДанныеСотрудников.УченоеЗвание КАК УченоеЗвание,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеАттестатСерия КАК УченоеЗваниеАттестатСерия,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеАттестатНомер КАК УченоеЗваниеАттестатНомер,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеДатаПрисвоения КАК УченоеЗваниеДатаПрисвоения,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеОрганизация КАК УченоеЗваниеОрганизация,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеСпециальность КАК УченоеЗваниеСпециальность,
+	Представления_КадровыеДанныеСотрудников.ИмеетНаучныеТруды КАК ИмеетНаучныеТруды,
+	Представления_КадровыеДанныеСотрудников.ИмеетИзобретения КАК ИмеетИзобретения,
+	Представления_КадровыеДанныеСотрудников.ПочетноеЗвание КАК ПочетноеЗвание,
+	Представления_КадровыеДанныеСотрудников.ВидДоговора КАК ВидДоговора,
+	Представления_КадровыеДанныеСотрудников.ТекущийВидДоговора КАК ТекущийВидДоговора,
+	Представления_КадровыеДанныеСотрудников.ПолученныеОбразования КАК ПолученныеОбразования,
+	Представления_КадровыеДанныеСотрудников.Награды КАК Награды,
+	Представления_КадровыеДанныеСотрудников.Документы КАК Документы,
+	Представления_КадровыеДанныеСотрудников.ЗнанияЯзыков КАК ЗнанияЯзыков,
+	Представления_КадровыеДанныеСотрудников.Профессии КАК Профессии,
+	Представления_КадровыеДанныеСотрудников.Специальности КАК Специальности,
+	Представления_КадровыеДанныеСотрудников.ТрудоваяДеятельность КАК ТрудоваяДеятельность,
+	Представления_КадровыеДанныеСотрудников.СоставСемьи КАК СоставСемьи,
+	Представления_КадровыеДанныеСотрудников.ДатаДоговораКонтракта КАК ДатаДоговораКонтракта,
+	Представления_КадровыеДанныеСотрудников.НомерДоговораКонтракта КАК НомерДоговораКонтракта,
+	Представления_КадровыеДанныеСотрудников.ДатаНачала КАК ДатаНачала,
+	Представления_КадровыеДанныеСотрудников.ПредставительНанимателя КАК ПредставительНанимателя,
+	Представления_КадровыеДанныеСотрудников.ДолжностьПредставителяНанимателя КАК ДолжностьПредставителяНанимателя,
+	Представления_КадровыеДанныеСотрудников.ОснованиеПредставителя КАК ОснованиеПредставителя,
+	Представления_КадровыеДанныеСотрудников.ВидАктаГосоргана КАК ВидАктаГосоргана,
+	Представления_КадровыеДанныеСотрудников.ДатаОкончания КАК ДатаОкончания,
+	Представления_КадровыеДанныеСотрудников.СрочныйДоговор КАК СрочныйДоговор,
+	Представления_КадровыеДанныеСотрудников.СрокЗаключенияДоговора КАК СрокЗаключенияДоговора,
+	Представления_КадровыеДанныеСотрудников.ОборудованиеРабочегоМеста КАК ОборудованиеРабочегоМеста,
+	Представления_КадровыеДанныеСотрудников.ИныеУсловияДоговора КАК ИныеУсловияДоговора,
+	Представления_КадровыеДанныеСотрудников.ВладелецМестаВыплаты КАК ВладелецМестаВыплаты,
+	Представления_КадровыеДанныеСотрудников.ВидМестаВыплаты КАК ВидМестаВыплаты,
+	Представления_КадровыеДанныеСотрудников.МестоВыплаты КАК МестоВыплаты,
+	Представления_КадровыеДанныеСотрудников.СтатусНалогоплательщикаПериодРегистрации КАК СтатусНалогоплательщикаПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.СтатусНалогоплательщика КАК СтатусНалогоплательщика,
+	Представления_КадровыеДанныеСотрудников.УчетЗатратПериодРегистрации КАК УчетЗатратПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.СтатьяФинансирования КАК СтатьяФинансирования,
+	Представления_КадровыеДанныеСотрудников.СпособОтраженияЗарплатыВБухучете КАК СпособОтраженияЗарплатыВБухучете,
+	Представления_КадровыеДанныеСотрудников.ОтношениеКЕНВД КАК ОтношениеКЕНВД,
+	Представления_КадровыеДанныеСотрудников.ЗарплатныйПроектПериодРегистрации КАК ЗарплатныйПроектПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ЗарплатныйПроектРегистратор КАК ЗарплатныйПроектРегистратор,
+	Представления_КадровыеДанныеСотрудников.ЗарплатныйПроект КАК ЗарплатныйПроект,
+	Представления_КадровыеДанныеСотрудников.НомерЛицевогоСчета КАК НомерЛицевогоСчета,
+	Представления_КадровыеДанныеСотрудников.ИнвалидностьПериодРегистрации КАК ИнвалидностьПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.Инвалидность КАК Инвалидность,
+	Представления_КадровыеДанныеСотрудников.ИнвалидностьДатаВыдачи КАК ИнвалидностьДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.ИнвалидностьСрокДействияСправки КАК ИнвалидностьСрокДействияСправки,
+	Представления_КадровыеДанныеСотрудников.ТерриторияПериодЗаписи КАК ТерриторияПериодЗаписи,
+	Представления_КадровыеДанныеСотрудников.ТерриторияРегистратор КАК ТерриторияРегистратор,
+	Представления_КадровыеДанныеСотрудников.Территория КАК Территория,
+	Представления_ПлановыеНачисленияСотрудников.Начисление КАК Начисление,
+	Представления_ПлановыеНачисленияСотрудников.Размер КАК Размер,
+	Представления_ПлановыеНачисленияСотрудников.Регистратор КАК НачислениеРегистратор,
+	Представления_ПлановыеНачисленияСотрудников.ДокументОснование КАК НачислениеДокументОснование,
+	Представления_ПлановыеНачисленияСотрудников.ОсновнойПоказатель КАК ОсновнойПоказатель,
+	ШтатноеРасписаниеНачисления.Начисление КАК НачислениеПоШтатномуРасписанию,
+	ШтатноеРасписаниеПоказатели.Показатель КАК ПоказательПоШтатномуРасписанию,
+	ШтатноеРасписаниеПоказатели.Значение КАК ЗначениеПоШтатномуРасписанию
+{ВЫБРАТЬ
+	Сотрудник.*,
+	ФизическоеЛицо.*,
+	ГоловнаяОрганизация.*,
+	ТабельныйНомер,
+	РабочееМестоПериодРегистрации,
+	РабочееМестоРегистратор.*,
+	Организация.*,
+	Подразделение.*,
+	Должность.*,
+	ДолжностьПоШтатномуРасписанию.*,
+	ГрафикРаботыПериодРегистрации,
+	ГрафикРаботыРегистратор.*,
+	ГрафикРаботы.*,
+	КоличествоСтавок,
+	ВидЗанятости.*,
+	ТарифнаяСетка.*,
+	РазрядКатегорияПериодРегистрации,
+	РазрядКатегорияРегистратор.*,
+	РазрядКатегория.*,
+	ТарифнаяСеткаНадбавки.*,
+	СостояниеПериодРегистрации,
+	Состояние,
+	ОплатаТрудаПериодЗаписи,
+	ОплатаТрудаРегистратор.*,
+	ТарифнаяСтавка,
+	ПоказательТарифнойСтавки.*,
+	ДоляНеполногоРабочегоВремени,
+	Надбавка,
+	ФОТ,
+	АвансПериодЗаписи,
+	АвансРегистратор.*,
+	Аванс,
+	СпособРасчетаАванса.*,
+	ПроцентСевернойНадбавки,
+	ПорядокИсчисленияПроцентаСевернойНадбавки.*,
+	ПроцентСевернойНадбавкиИзменяется,
+	ДатаПриема,
+	ТрудовойДоговорНомер,
+	ТрудовойДоговорДата,
+	ПриказОПриеме.*,
+	ПриказОПриемеДатаЗавершенияТрудовогоДоговора,
+	ДатаУвольнения,
+	ПриказОбУвольнении.*,
+	ПриказОбУвольненииСтатьяТКРФ.*,
+	ПриказОбУвольненииНомер,
+	ПриказОбУвольненииДата,
+	Пол.*,
+	ДатаРождения,
+	ИНН,
+	СтраховойНомерПФР,
+	МестоРождения,
+	ГражданствоПериодРегистрации,
+	Страна.*,
+	ВидЗастрахованногоЛицаПериодРегистрации,
+	ВидЗастрахованногоЛица.*,
+	ФИОПериодРегистрации,
+	Фамилия,
+	Имя,
+	Отчество,
+	ФИОПолные,
+	ДокументПериодРегистрации,
+	ДокументВид.*,
+	ДокументКодМВД,
+	ДокументСерия,
+	ДокументНомер,
+	ДокументДатаВыдачи,
+	ДокументСрокДействия,
+	ДокументКемВыдан,
+	ДокументКодПодразделения,
+	ДокументПредставление,
+	АдресПоПрописке,
+	АдресПоПропискеПредставление,
+	ДатаРегистрации,
+	АдресМестаПроживания,
+	АдресМестаПроживанияПредставление,
+	ТелефонМобильныйПредставление,
+	ТелефонДомашнийПредставление,
+	ТелефонРабочийПредставление,
+	EMailПредставление,
+	ВладеемыйЯзык1.*,
+	ВладеемыйЯзык1СтепеньЗнания.*,
+	ВладеемыйЯзык2.*,
+	ВладеемыйЯзык2СтепеньЗнания.*,
+	Профессия1.*,
+	Профессия2.*,
+	ОбщийСтажДней,
+	ОбщийСтажМесяцев,
+	ОбщийСтажЛет,
+	НепрерывныйСтажДней,
+	НепрерывныйСтажМесяцев,
+	НепрерывныйСтажЛет,
+	СтажНаНадбавкуЗаВыслугуЛетДней,
+	СтажНаНадбавкуЗаВыслугуЛетМесяцев,
+	СтажНаНадбавкуЗаВыслугуЛетЛет,
+	СтраховойСтажДней,
+	СтраховойСтажМесяцев,
+	СтраховойСтажЛет,
+	РасширенныйСтраховойСтажДней,
+	РасширенныйСтраховойСтажМесяцев,
+	РасширенныйСтраховойСтажЛет,
+	ПрочийСтажДней,
+	ПрочийСтажМесяцев,
+	ПрочийСтажЛет,
+	ОбщийНаучноПедагогическийСтажДней,
+	ОбщийНаучноПедагогическийСтажМесяцев,
+	ОбщийНаучноПедагогическийСтажЛет,
+	ПедагогическийСтажДней,
+	ПедагогическийСтажМесяцев,
+	ПедагогическийСтажЛет,
+	СеверныйСтажДней,
+	СеверныйСтажМесяцев,
+	СеверныйСтажЛет,
+	СостояниеВБракеПериодРегистрации,
+	СостояниеВБраке.*,
+	ВоинскийУчетПериодРегистрации,
+	ВоинскийУчетКатегорияЗапаса.*,
+	ВоинскийУчетЗвание.*,
+	ВоинскийУчетСостав.*,
+	ВоинскийУчетВУС,
+	ВоинскийУчетГодность.*,
+	ВоинскийУчетВоенкомат.*,
+	ВоинскийУчетНомерКомандыПартии,
+	ВоинскийУчетОтношениеКВоинскойОбязанности.*,
+	ВоинскийУчетОтношениеКВоинскомуУчету.*,
+	ВоинскийУчетОтметкаОСнятиеСУчета.*,
+	ВоинскийУчетЗабронированОрганизациейПериодРегистрации,
+	ВоинскийУчетЗабронированОрганизациейРегистратор.*,
+	ВоинскийУчетЗабронированОрганизацией.*,
+	ПослеВузовскоеОбразованиеУчебноеЗаведение.*,
+	ПослеВузовскоеОбразованиеВидОбразования.*,
+	ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования.*,
+	ПослеВузовскоеОбразованиеВидДокумента.*,
+	ПослеВузовскоеОбразованиеНачало,
+	ПослеВузовскоеОбразованиеОкончание,
+	ПослеВузовскоеОбразованиеСерия,
+	ПослеВузовскоеОбразованиеНомер,
+	ПослеВузовскоеОбразованиеДатаВыдачи,
+	ПослеВузовскоеОбразованиеСпециальность.*,
+	ПослеВузовскоеОбразованиеКвалификация,
+	Образование1УчебноеЗаведение.*,
+	Образование.*,
+	Образование1Начало,
+	Образование1Окончание,
+	Образование1Специальность.*,
+	Образование1ВидДокумента.*,
+	Образование1Серия,
+	Образование1Номер,
+	Образование1ДатаВыдачи,
+	Образование1Квалификация,
+	Образование2УчебноеЗаведение.*,
+	Образование2ВидОбразования.*,
+	Образование2Начало,
+	Образование2Окончание,
+	Образование2Специальность.*,
+	Образование2ВидДокумента.*,
+	Образование2Серия,
+	Образование2Номер,
+	Образование2ДатаВыдачи,
+	Образование2Квалификация,
+	ВысшееОбразованиеУчебноеЗаведение.*,
+	ВысшееОбразованиеНачало,
+	ВысшееОбразованиеОкончание,
+	УченаяСтепень.*,
+	УченаяСтепеньОтрасльНауки,
+	УченаяСтепеньДатаПрисуждения,
+	УченаяСтепеньДиссертационныйСовет,
+	УченаяСтепеньДипломСерияНомер,
+	УченаяСтепеньОрганизация,
+	УченоеЗвание.*,
+	УченоеЗваниеАттестатСерия,
+	УченоеЗваниеАттестатНомер,
+	УченоеЗваниеДатаПрисвоения,
+	УченоеЗваниеОрганизация,
+	УченоеЗваниеСпециальность.*,
+	ИмеетНаучныеТруды,
+	ИмеетИзобретения,
+	ПочетноеЗвание.*,
+	ВидДоговора.*,
+	ТекущийВидДоговора.*,
+	ПолученныеОбразования,
+	Награды,
+	Документы,
+	ЗнанияЯзыков,
+	Профессии,
+	Специальности,
+	ТрудоваяДеятельность,
+	СоставСемьи,
+	ДатаДоговораКонтракта,
+	НомерДоговораКонтракта,
+	ДатаНачала,
+	ПредставительНанимателя.*,
+	ДолжностьПредставителяНанимателя.*,
+	ОснованиеПредставителя,
+	ВидАктаГосоргана,
+	ДатаОкончания,
+	СрочныйДоговор,
+	СрокЗаключенияДоговора,
+	ОборудованиеРабочегоМеста,
+	ИныеУсловияДоговора,
+	ВладелецМестаВыплаты.*,
+	ВидМестаВыплаты.*,
+	МестоВыплаты.*,
+	СтатусНалогоплательщикаПериодРегистрации,
+	СтатусНалогоплательщика.*,
+	УчетЗатратПериодРегистрации,
+	СтатьяФинансирования.*,
+	СпособОтраженияЗарплатыВБухучете.*,
+	ОтношениеКЕНВД,
+	ЗарплатныйПроектПериодРегистрации,
+	ЗарплатныйПроектРегистратор,
+	ЗарплатныйПроект,
+	НомерЛицевогоСчета,
+	ИнвалидностьПериодРегистрации,
+	Инвалидность,
+	ИнвалидностьДатаВыдачи,
+	ИнвалидностьСрокДействияСправки,
+	ТерриторияПериодЗаписи,
+	ТерриторияРегистратор.*,
+	Территория.*,
+	НачислениеРегистратор,
+	НачислениеДокументОснование,
+	Начисление.*,
+	Размер,
+	ОсновнойПоказатель.*}
+ИЗ
+	Представления_КадровыеДанныеСотрудников КАК Представления_КадровыеДанныеСотрудников
+		ЛЕВОЕ СОЕДИНЕНИЕ Представления_ПлановыеНачисленияСотрудников КАК Представления_ПлановыеНачисленияСотрудников
+		ПО Представления_КадровыеДанныеСотрудников.Сотрудник = Представления_ПлановыеНачисленияСотрудников.Сотрудник
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ШтатноеРасписание.Начисления КАК ШтатноеРасписаниеНачисления
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ШтатноеРасписание.Показатели КАК ШтатноеРасписаниеПоказатели
+			ПО (ШтатноеРасписаниеПоказатели.Ссылка = ШтатноеРасписаниеНачисления.Ссылка)
+				И (ШтатноеРасписаниеПоказатели.ИдентификаторСтрокиВидаРасчета = ШтатноеРасписаниеНачисления.ИдентификаторСтрокиВидаРасчета)
+		ПО Представления_КадровыеДанныеСотрудников.ДолжностьПоШтатномуРасписанию = ШтатноеРасписаниеНачисления.Ссылка
+			И (Представления_ПлановыеНачисленияСотрудников.Начисление = ШтатноеРасписаниеНачисления.Начисление)
+ГДЕ
+	Представления_КадровыеДанныеСотрудников.Организация = &amp;Организация
+	И Представления_ПлановыеНачисленияСотрудников.Начисление = &amp;Начисление
+{ГДЕ
+	Представления_КадровыеДанныеСотрудников.Сотрудник.*,
+	Представления_КадровыеДанныеСотрудников.ФизическоеЛицо.*,
+	Представления_КадровыеДанныеСотрудников.ГоловнаяОрганизация.*,
+	Представления_КадровыеДанныеСотрудников.ТабельныйНомер,
+	Представления_КадровыеДанныеСотрудников.РабочееМестоПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.РабочееМестоРегистратор.*,
+	Представления_КадровыеДанныеСотрудников.Организация.*,
+	Представления_КадровыеДанныеСотрудников.Подразделение.*,
+	Представления_КадровыеДанныеСотрудников.Должность.*,
+	Представления_КадровыеДанныеСотрудников.ДолжностьПоШтатномуРасписанию.*,
+	Представления_КадровыеДанныеСотрудников.ГрафикРаботыПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ГрафикРаботыРегистратор.*,
+	Представления_КадровыеДанныеСотрудников.ГрафикРаботы.*,
+	Представления_КадровыеДанныеСотрудников.КоличествоСтавок,
+	Представления_КадровыеДанныеСотрудников.ВидЗанятости.*,
+	Представления_КадровыеДанныеСотрудников.ТарифнаяСетка.*,
+	Представления_КадровыеДанныеСотрудников.РазрядКатегорияПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.РазрядКатегорияРегистратор.*,
+	Представления_КадровыеДанныеСотрудников.РазрядКатегория.*,
+	Представления_КадровыеДанныеСотрудников.ТарифнаяСеткаНадбавки.*,
+	Представления_КадровыеДанныеСотрудников.СостояниеПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.Состояние,
+	Представления_КадровыеДанныеСотрудников.ОплатаТрудаПериодЗаписи,
+	Представления_КадровыеДанныеСотрудников.ОплатаТрудаРегистратор.*,
+	Представления_КадровыеДанныеСотрудников.ТарифнаяСтавка,
+	Представления_КадровыеДанныеСотрудников.ПоказательТарифнойСтавки.*,
+	Представления_КадровыеДанныеСотрудников.ДоляНеполногоРабочегоВремени,
+	Представления_КадровыеДанныеСотрудников.Надбавка,
+	Представления_КадровыеДанныеСотрудников.ФОТ,
+	Представления_КадровыеДанныеСотрудников.АвансПериодЗаписи,
+	Представления_КадровыеДанныеСотрудников.АвансРегистратор.*,
+	Представления_КадровыеДанныеСотрудников.Аванс,
+	Представления_КадровыеДанныеСотрудников.СпособРасчетаАванса.*,
+	Представления_КадровыеДанныеСотрудников.ПроцентСевернойНадбавки,
+	Представления_КадровыеДанныеСотрудников.ПорядокИсчисленияПроцентаСевернойНадбавки.*,
+	Представления_КадровыеДанныеСотрудников.ПроцентСевернойНадбавкиИзменяется,
+	Представления_КадровыеДанныеСотрудников.ДатаПриема,
+	Представления_КадровыеДанныеСотрудников.ТрудовойДоговорНомер,
+	Представления_КадровыеДанныеСотрудников.ТрудовойДоговорДата,
+	Представления_КадровыеДанныеСотрудников.ПриказОПриеме.*,
+	Представления_КадровыеДанныеСотрудников.ПриказОПриемеДатаЗавершенияТрудовогоДоговора,
+	(ВЫБОР
+			КОГДА Представления_КадровыеДанныеСотрудников.ДатаУвольнения &lt;= &amp;Период
+				ТОГДА Представления_КадровыеДанныеСотрудников.ДатаУвольнения
+			ИНАЧЕ ДАТАВРЕМЯ(1, 1, 1)
+		КОНЕЦ) КАК ДатаУвольнения,
+	Представления_КадровыеДанныеСотрудников.ПриказОбУвольнении.*,
+	Представления_КадровыеДанныеСотрудников.ПриказОбУвольненииСтатьяТКРФ.*,
+	Представления_КадровыеДанныеСотрудников.ПриказОбУвольненииНомер,
+	Представления_КадровыеДанныеСотрудников.ПриказОбУвольненииДата,
+	Представления_КадровыеДанныеСотрудников.Пол.*,
+	Представления_КадровыеДанныеСотрудников.ДатаРождения,
+	Представления_КадровыеДанныеСотрудников.ИНН,
+	Представления_КадровыеДанныеСотрудников.СтраховойНомерПФР,
+	Представления_КадровыеДанныеСотрудников.МестоРождения,
+	Представления_КадровыеДанныеСотрудников.ГражданствоПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.Страна.*,
+	Представления_КадровыеДанныеСотрудников.ВидЗастрахованногоЛицаПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ВидЗастрахованногоЛица.*,
+	Представления_КадровыеДанныеСотрудников.ФИОПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.Фамилия,
+	Представления_КадровыеДанныеСотрудников.Имя,
+	Представления_КадровыеДанныеСотрудников.Отчество,
+	Представления_КадровыеДанныеСотрудников.ФИОПолные,
+	Представления_КадровыеДанныеСотрудников.ДокументПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ДокументВид.*,
+	Представления_КадровыеДанныеСотрудников.ДокументКодМВД,
+	Представления_КадровыеДанныеСотрудников.ДокументСерия,
+	Представления_КадровыеДанныеСотрудников.ДокументНомер,
+	Представления_КадровыеДанныеСотрудников.ДокументДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.ДокументСрокДействия,
+	Представления_КадровыеДанныеСотрудников.ДокументКемВыдан,
+	Представления_КадровыеДанныеСотрудников.ДокументКодПодразделения,
+	Представления_КадровыеДанныеСотрудников.ДокументПредставление,
+	Представления_КадровыеДанныеСотрудников.АдресПоПрописке,
+	Представления_КадровыеДанныеСотрудников.АдресПоПропискеПредставление,
+	Представления_КадровыеДанныеСотрудников.ДатаРегистрации,
+	Представления_КадровыеДанныеСотрудников.АдресМестаПроживания,
+	Представления_КадровыеДанныеСотрудников.АдресМестаПроживанияПредставление,
+	Представления_КадровыеДанныеСотрудников.ТелефонМобильныйПредставление,
+	Представления_КадровыеДанныеСотрудников.ТелефонДомашнийПредставление,
+	Представления_КадровыеДанныеСотрудников.ТелефонРабочийПредставление,
+	Представления_КадровыеДанныеСотрудников.EMailПредставление,
+	Представления_КадровыеДанныеСотрудников.ВладеемыйЯзык1.*,
+	Представления_КадровыеДанныеСотрудников.ВладеемыйЯзык1СтепеньЗнания.*,
+	Представления_КадровыеДанныеСотрудников.ВладеемыйЯзык2.*,
+	Представления_КадровыеДанныеСотрудников.ВладеемыйЯзык2СтепеньЗнания.*,
+	Представления_КадровыеДанныеСотрудников.Профессия1.*,
+	Представления_КадровыеДанныеСотрудников.Профессия2.*,
+	Представления_КадровыеДанныеСотрудников.ОбщийСтажДней,
+	Представления_КадровыеДанныеСотрудников.ОбщийСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.ОбщийСтажЛет,
+	Представления_КадровыеДанныеСотрудников.НепрерывныйСтажДней,
+	Представления_КадровыеДанныеСотрудников.НепрерывныйСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.НепрерывныйСтажЛет,
+	Представления_КадровыеДанныеСотрудников.СтажНаНадбавкуЗаВыслугуЛетДней,
+	Представления_КадровыеДанныеСотрудников.СтажНаНадбавкуЗаВыслугуЛетМесяцев,
+	Представления_КадровыеДанныеСотрудников.СтажНаНадбавкуЗаВыслугуЛетЛет,
+	Представления_КадровыеДанныеСотрудников.СтраховойСтажДней,
+	Представления_КадровыеДанныеСотрудников.СтраховойСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.СтраховойСтажЛет,
+	Представления_КадровыеДанныеСотрудников.РасширенныйСтраховойСтажДней,
+	Представления_КадровыеДанныеСотрудников.РасширенныйСтраховойСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.РасширенныйСтраховойСтажЛет,
+	Представления_КадровыеДанныеСотрудников.ПрочийСтажДней,
+	Представления_КадровыеДанныеСотрудников.ПрочийСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.ПрочийСтажЛет,
+	Представления_КадровыеДанныеСотрудников.ОбщийНаучноПедагогическийСтажДней,
+	Представления_КадровыеДанныеСотрудников.ОбщийНаучноПедагогическийСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.ОбщийНаучноПедагогическийСтажЛет,
+	Представления_КадровыеДанныеСотрудников.ПедагогическийСтажДней,
+	Представления_КадровыеДанныеСотрудников.ПедагогическийСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.ПедагогическийСтажЛет,
+	Представления_КадровыеДанныеСотрудников.СеверныйСтажДней,
+	Представления_КадровыеДанныеСотрудников.СеверныйСтажМесяцев,
+	Представления_КадровыеДанныеСотрудников.СеверныйСтажЛет,
+	Представления_КадровыеДанныеСотрудников.СостояниеВБракеПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.СостояниеВБраке.*,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетКатегорияЗапаса.*,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗвание.*,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетСостав.*,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетВУС,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетГодность.*,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетВоенкомат.*,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетНомерКомандыПартии,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетОтношениеКВоинскойОбязанности.*,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетОтношениеКВоинскомуУчету.*,
+	(ВЫБОР
+			КОГДА Представления_КадровыеДанныеСотрудников.ВоинскийУчетОтношениеКВоинскомуУчету В (ЗНАЧЕНИЕ(Перечисление.ОтношениеКВоинскомуУчету.СнятПоВозрасту), ЗНАЧЕНИЕ(Перечисление.ОтношениеКВоинскомуУчету.СнятПоСостояниюЗдоровья))
+				ТОГДА Представления_КадровыеДанныеСотрудников.ВоинскийУчетОтношениеКВоинскомуУчету
+			ИНАЧЕ ""
+		КОНЕЦ).* КАК ВоинскийУчетОтметкаОСнятиеСУчета,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизациейПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизациейРегистратор.*,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизацией.*,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеУчебноеЗаведение.*,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидОбразования.*,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования.*,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидДокумента.*,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеНачало,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеОкончание,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеСерия,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеНомер,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеСпециальность.*,
+	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеКвалификация,
+	Представления_КадровыеДанныеСотрудников.Образование1УчебноеЗаведение.*,
+	Представления_КадровыеДанныеСотрудников.Образование1ВидОбразования.*,
+	Представления_КадровыеДанныеСотрудников.Образование1Начало,
+	Представления_КадровыеДанныеСотрудников.Образование1Окончание,
+	Представления_КадровыеДанныеСотрудников.Образование1Специальность.*,
+	Представления_КадровыеДанныеСотрудников.Образование1ВидДокумента.*,
+	Представления_КадровыеДанныеСотрудников.Образование1Серия,
+	Представления_КадровыеДанныеСотрудников.Образование1Номер,
+	Представления_КадровыеДанныеСотрудников.Образование1ДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.Образование1Квалификация,
+	Представления_КадровыеДанныеСотрудников.Образование2УчебноеЗаведение.*,
+	Представления_КадровыеДанныеСотрудников.Образование2ВидОбразования.*,
+	Представления_КадровыеДанныеСотрудников.Образование2Начало,
+	Представления_КадровыеДанныеСотрудников.Образование2Окончание,
+	Представления_КадровыеДанныеСотрудников.Образование2Специальность.*,
+	Представления_КадровыеДанныеСотрудников.Образование2ВидДокумента.*,
+	Представления_КадровыеДанныеСотрудников.Образование2Серия,
+	Представления_КадровыеДанныеСотрудников.Образование2Номер,
+	Представления_КадровыеДанныеСотрудников.Образование2ДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.Образование2Квалификация,
+	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеУчебноеЗаведение.*,
+	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеНачало,
+	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеОкончание,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепень.*,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньОтрасльНауки,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДатаПрисуждения,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДиссертационныйСовет,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДипломСерияНомер,
+	Представления_КадровыеДанныеСотрудников.УченаяСтепеньОрганизация,
+	Представления_КадровыеДанныеСотрудников.УченоеЗвание.*,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеАттестатСерия,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеАттестатНомер,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеДатаПрисвоения,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеОрганизация,
+	Представления_КадровыеДанныеСотрудников.УченоеЗваниеСпециальность.*,
+	Представления_КадровыеДанныеСотрудников.ИмеетНаучныеТруды,
+	Представления_КадровыеДанныеСотрудников.ИмеетИзобретения,
+	Представления_КадровыеДанныеСотрудников.ПочетноеЗвание.*,
+	Представления_КадровыеДанныеСотрудников.ВидДоговора.*,
+	Представления_КадровыеДанныеСотрудников.ТекущийВидДоговора.*,
+	Представления_КадровыеДанныеСотрудников.ПолученныеОбразования,
+	Представления_КадровыеДанныеСотрудников.Награды,
+	Представления_КадровыеДанныеСотрудников.Документы,
+	Представления_КадровыеДанныеСотрудников.ЗнанияЯзыков,
+	Представления_КадровыеДанныеСотрудников.Профессии,
+	Представления_КадровыеДанныеСотрудников.Специальности,
+	Представления_КадровыеДанныеСотрудников.ТрудоваяДеятельность,
+	Представления_КадровыеДанныеСотрудников.СоставСемьи,
+	Представления_КадровыеДанныеСотрудников.ДатаДоговораКонтракта,
+	Представления_КадровыеДанныеСотрудников.НомерДоговораКонтракта,
+	Представления_КадровыеДанныеСотрудников.ДатаНачала,
+	Представления_КадровыеДанныеСотрудников.ПредставительНанимателя.*,
+	Представления_КадровыеДанныеСотрудников.ДолжностьПредставителяНанимателя.*,
+	Представления_КадровыеДанныеСотрудников.ОснованиеПредставителя,
+	Представления_КадровыеДанныеСотрудников.ВидАктаГосоргана,
+	Представления_КадровыеДанныеСотрудников.ДатаОкончания,
+	Представления_КадровыеДанныеСотрудников.СрочныйДоговор,
+	Представления_КадровыеДанныеСотрудников.СрокЗаключенияДоговора,
+	Представления_КадровыеДанныеСотрудников.ОборудованиеРабочегоМеста,
+	Представления_КадровыеДанныеСотрудников.ИныеУсловияДоговора,
+	Представления_КадровыеДанныеСотрудников.ВладелецМестаВыплаты.*,
+	Представления_КадровыеДанныеСотрудников.ВидМестаВыплаты.*,
+	Представления_КадровыеДанныеСотрудников.МестоВыплаты.*,
+	Представления_КадровыеДанныеСотрудников.СтатусНалогоплательщикаПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.СтатусНалогоплательщика.*,
+	Представления_КадровыеДанныеСотрудников.УчетЗатратПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.СтатьяФинансирования.*,
+	Представления_КадровыеДанныеСотрудников.СпособОтраженияЗарплатыВБухучете.*,
+	Представления_КадровыеДанныеСотрудников.ОтношениеКЕНВД,
+	Представления_КадровыеДанныеСотрудников.ЗарплатныйПроектПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.ЗарплатныйПроектРегистратор,
+	Представления_КадровыеДанныеСотрудников.ЗарплатныйПроект,
+	Представления_КадровыеДанныеСотрудников.НомерЛицевогоСчета,
+	Представления_КадровыеДанныеСотрудников.ИнвалидностьПериодРегистрации,
+	Представления_КадровыеДанныеСотрудников.Инвалидность,
+	Представления_КадровыеДанныеСотрудников.ИнвалидностьДатаВыдачи,
+	Представления_КадровыеДанныеСотрудников.ИнвалидностьСрокДействияСправки,
+	Представления_КадровыеДанныеСотрудников.ТерриторияПериодЗаписи,
+	Представления_КадровыеДанныеСотрудников.ТерриторияРегистратор.*,
+	Представления_КадровыеДанныеСотрудников.Территория.*,
+	Представления_ПлановыеНачисленияСотрудников.Начисление.*,
+	Представления_ПлановыеНачисленияСотрудников.Размер,
+	Представления_ПлановыеНачисленияСотрудников.Регистратор,
+	Представления_ПлановыеНачисленияСотрудников.ДокументОснование,
+	Представления_ПлановыеНачисленияСотрудников.ОсновнойПоказатель.*}</query>
+		</dataSet>
+		<totalField>
+			<dataPath>Размер</dataPath>
+			<expression>Сумма(Размер)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>ЗначениеПоШтатномуРасписанию</dataPath>
+			<expression>Сумма(ЗначениеПоШтатномуРасписанию)</expression>
+		</totalField>
+		<parameter>
+			<name>Период</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Период</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+			<use>Always</use>
+		</parameter>
+		<parameter>
+			<name>ВыводитьДанныеПредстоящихПриемов</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Выводить данные предстоящих приемов</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:boolean</Type>
+			</valueType>
+			<value xsi:type="xs:boolean">false</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Начисление</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Начисление</d4p1:content>
+				</d4p1:item>
+			</title>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Организация</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Организация</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">c66b2ec0-5fb7-4a32-ba46-673aebc6b37a</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Плановые начисления сотрудников</d4p1:content>
+				</d4p1:item>
+			</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Подразделение</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Должность</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<use>false</use>
+			<field>ВидЗанятости</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Начисление</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>НачислениеПоШтатномуРасписанию</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<use>false</use>
+			<field>НачислениеДокументОснование</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<use>false</use>
+			<field>НачислениеРегистратор</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Размер</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ЗначениеПоШтатномуРасписанию</field>
+		</item>
+	</selection>
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Организация</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>d82e3729-0189-4197-a7e6-283b405fa9f8</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Подразделение</left>
+			<comparisonType>InHierarchy</comparisonType>
+			<userSettingID>b6016a1b-6a09-4d3b-8229-9e34b40f6f41</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Должность</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>b81a85e2-5686-4db0-a4a8-7e37a4a9d156</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Сотрудник</left>
+			<comparisonType>Equal</comparisonType>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">НачислениеПоШтатномуРасписанию</left>
+			<comparisonType>NotFilled</comparisonType>
+			<userSettingID>650ad4c1-ca42-4a8c-9b54-43f02cf2f8e5</userSettingID>
+		</item>
+		<item xsi:type="FilterItemGroup">
+			<groupType>AndGroup</groupType>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ДатаПриема</left>
+				<comparisonType>Filled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ДатаПриема</left>
+				<comparisonType>LessOrEqual</comparisonType>
+				<right xsi:type="dcscor:Field">ПараметрыДанных.Период</right>
+			</item>
+			<item xsi:type="FilterItemGroup">
+				<groupType>OrGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ДатаУвольнения</left>
+					<comparisonType>NotFilled</comparisonType>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ДатаУвольнения</left>
+					<comparisonType>GreaterOrEqual</comparisonType>
+					<right xsi:type="dcscor:Field">ПараметрыДанных.Период</right>
+				</item>
+			</item>
+		</item>
+	</filter>
+	<dataParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>Период</dcscor:parameter>
+			<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+			<userSettingID>9448cf9a-7c68-4a15-b8bd-b6119a449c29</userSettingID>
+			<userSettingPresentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата отчета</v8:content>
+				</v8:item>
+			</userSettingPresentation>
+		</dcscor:item>
+	</dataParameters>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Подразделение</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Должность</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">DontOutput</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>Заголовок</dcscor:parameter>
+			<dcscor:value xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Плановые начисления сотрудников</v8:content>
+				</v8:item>
+			</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">DontOutput</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">DontOutput</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>ДолжностьПоШтатномуРасписанию</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+		<item xsi:type="StructureItemGroup">
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+		</item>
+	</item>
+	<item xsi:type="StructureItemGroup">
+		<use>false</use>
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>Организация</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+		<item xsi:type="StructureItemGroup">
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Подразделение</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+			<item xsi:type="StructureItemGroup">
+				<groupItems>
+					<item xsi:type="GroupItemField">
+						<field>Сотрудник</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+					<item xsi:type="GroupItemField">
+						<field>Должность</field>
+						<groupType>Items</groupType>
+						<periodAdditionType>None</periodAdditionType>
+						<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+						<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+					</item>
+				</groupItems>
+				<order>
+					<item xsi:type="OrderItemAuto"/>
+				</order>
+				<selection>
+					<item xsi:type="SelectedItemAuto"/>
+				</selection>
+				<outputParameters/>
+				<item xsi:type="StructureItemGroup">
+					<order>
+						<item xsi:type="OrderItemAuto"/>
+					</order>
+					<selection>
+						<item xsi:type="SelectedItemField">
+							<field>ДолжностьПоШтатномуРасписанию</field>
+						</item>
+						<item xsi:type="SelectedItemField">
+							<field>Начисление</field>
+						</item>
+						<item xsi:type="SelectedItemField">
+							<field>НачислениеПоШтатномуРасписанию</field>
+						</item>
+						<item xsi:type="SelectedItemField">
+							<field>НачислениеРегистратор</field>
+						</item>
+						<item xsi:type="SelectedItemField">
+							<field>Размер</field>
+						</item>
+						<item xsi:type="SelectedItemField">
+							<field>ЗначениеПоШтатномуРасписанию</field>
+						</item>
+					</selection>
+					<outputParameters/>
+				</item>
+			</item>
+		</item>
+	</item>
+	<item xsi:type="StructureItemTable">
+		<use>false</use>
+		<column>
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Начисление</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+		</column>
+		<row>
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Сотрудник</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+		</row>
+		<outputParameters/>
+	</item>
+	<item xsi:type="StructureItemGroup">
+		<use>false</use>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemField">
+				<field>Сотрудник</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>Подразделение</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>Должность</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ДолжностьПоШтатномуРасписанию</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>Начисление</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>НачислениеПоШтатномуРасписанию</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>НачислениеРегистратор</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>Размер</field>
+			</item>
+			<item xsi:type="SelectedItemField">
+				<field>ЗначениеПоШтатномуРасписанию</field>
+			</item>
+		</selection>
+		<outputParameters/>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>
